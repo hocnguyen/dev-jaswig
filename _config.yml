@@ -11,7 +11,7 @@ email: standup@jaswig.com
 description: > # this means to ignore newlines until "baseurl:"
   Beautifully designed standing desk that is locally produced with high quality
   wood. This standup desk is perfect for at home or in your office
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "https://hocnguyen.github.io/devjaswig.github.io/" # the subpath of your site, e.g. /blog
 url: "https://hocnguyen.github.io/devjaswig.github.io/" # the base hostname & protocol for your site
 shopify_us: "http://us-store.jaswig.com"
 shopify_eu: "http://eu-store.jaswig.com"
