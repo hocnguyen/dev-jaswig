@@ -1,0 +1,44 @@
+.blog {
+  padding-top: 90px;
+  padding-bottom: 120px;
+}
+
+.blogpost {
+  border: 1px solid $color-subtle;
+  border-radius: 3px;
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+
+.blogpost img {
+  width: 100%;
+}
+
+.blogpost-inner {
+  padding: 35px;
+}
+
+.blogpost-inner-title a {
+  text-decoration: none;
+  color: $color-dark;
+}
+
+.blogpost-inner p,
+.blogpost-inner h1,
+.blogpost-inner h2,
+.blogpost-inner h3 {
+  font-family: $font-base;
+  font-size: 14px;
+  line-height: 27px;
+  color: $color-brown;
+  font-weight: 300;
+}
+
+h3.blogpost-inner-title {
+  font-family: $font-secondary;
+  color: $color-dark;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 35px;
+  margin: 12px 0;
+}

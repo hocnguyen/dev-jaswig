@@ -1,0 +1,265 @@
+@import "bootstrap/grid-setup";
+
+/* Color variables */
+$color-primary: #F68F1F;
+$color-primary-dark: #DB5F26;
+$color-secondary: #6BC6B8;
+$color-red: #D0021B;
+$color-dark: #1C1B1A;
+$color-brown: #978B7D;
+$color-brown-light: #F1EEE9;
+$color-subtle: #F5F3EF;
+$color-subtle-line: #FBFAF8;
+
+/* Font variables */
+$font-base: 'Roboto';
+$font-secondary: 'Brandon Grotesque';
+
+@font-face {
+    font-family: "Brandon Grotesque";
+    src: url("/fonts/Brandon_reg.woff");
+}
+@font-face {
+    font-family: "Brandon Grotesque";
+    src: url("/fonts/Brandon_reg.woff");
+    font-weight: 300;
+}
+@font-face {
+    font-family: "Brandon Grotesque";
+    src: url("/fonts/Brandon_med.woff");
+    font-weight: 500;
+}
+@font-face {
+    font-family: "Brandon Grotesque";
+    src: url("/fonts/Brandon_bld.woff");
+    font-weight: 800;
+}
+
+/* Typography */
+h1 {
+  font-family: $font-secondary;
+  font-size: 48px;
+  font-weight: 500;
+  color: $color-dark;
+  margin-bottom: 60px;
+}
+
+h1.large {
+  color: $color-primary;
+  font-size: 72px;
+}
+
+h2 {
+  font-family: $font-secondary;
+  color: $color-dark;
+  font-size: 36px;
+  font-weight: 500;
+}
+
+h3 {
+  font-family: $font-secondary;
+  color: $color-dark;
+  font-size: 22px;
+  font-weight: 500;
+  margin: 12px 0;
+}
+
+h4.upper {
+  color: $color-brown;
+  font-family: $font-secondary;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+p,
+.p {
+  font-family: $font-base;
+  color: $color-brown;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 30px;
+  max-width: 800px;
+
+  strong,
+  .strong,
+  &.strong {
+    font-weight: 500;
+  }
+
+  &:not(:last-of-type) {
+    padding-bottom: 20px;
+  }
+}
+
+p.lead {
+  font-family: $font-base;
+  color: $color-dark;
+  font-size: 20px;
+  line-height: 35px;
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+
+span.attention {
+  color: $color-red;
+  font-family: $font-secondary;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 11px;
+  font-weight: 800;
+}
+
+span.preorder {
+  color: white;
+  background-color: $color-dark;
+  font-family: $font-secondary;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 11px;
+  font-weight: 500;
+  border-radius: 2px;
+  padding: 2px 7px;
+  opacity: 0.3;
+}
+
+/* Tables */
+.table,
+%table {
+  display: table;
+  width: 100%;
+}
+.table .table-row,
+%table-row {
+  display: table-row;
+}
+
+.table .table-cell,
+%table-cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* Lists */
+.list {
+  padding: 0;
+}
+.list.list-left {
+  display: inline-block;
+}
+.list.list-left li {
+  list-style-type: none;
+  float: left;
+
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
+/* Links */
+a {
+  color: $color-primary;
+}
+
+.arrow,
+a.upper {
+  display: block;
+  color: $color-primary;
+  font-family: $font-secondary;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.arrow:after {
+   font-family: FontAwesome;
+   content: "\f178";
+   margin-left: 10px;
+}
+
+.arrow:hover {
+  color: $color-primary + 30;
+}
+
+.btn,
+.btn--secondary {
+  display: inline-block;
+  font-family: $font-secondary !important;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 13px !important;
+  font-weight: 600 !important;
+  border-radius: 50px !important;
+  padding: 10px 20px;
+  transition: 0.3s all;
+}
+
+.btn,
+.btn.btn-primary {
+  background-color: $color-primary !important;
+  color: white;
+  box-shadow: 0px 10px 20px 0px rgba(110,72,31,0.13);
+  cursor: pointer;
+
+  &:hover {
+    background-color: $color-primary + 10;
+    box-shadow: 0px 7px 15px 0px rgba(110,72,31,0.08);
+  }
+}
+
+.btn-secondary,
+.btn--secondary {
+  background-color: $color-brown !important;
+
+  &:hover {
+    background-color: $color-brown + 10;
+  }
+}
+
+
+
+/* Utilities */
+.padding {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.padding-bottom {
+  padding-bottom: 70px;
+}
+
+.alignr {
+  text-align: right;
+}
+
+.alignc {
+  text-align: center;
+}
+
+/* Html, body */
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/* Background image */
+.background {
+  height: 57vw;
+  background-image: url('/images/jaswig-standing-desk.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #ccc;
+}
+
+/* Hide modal when Vue isn't loaded yet */
+[v-cloak] {
+  display: none;
+}

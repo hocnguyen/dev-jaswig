@@ -1,0 +1,41 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+
+  <!-- Search engines -->
+  <meta name="description" content="Beautifully designed standing desk that is locally produced with high quality wood. This standup desk is perfect for at home or in your office">
+  <!-- Google Plus -->
+  <!-- Update your html tag to include the itemscope and itemtype attributes. -->
+  <!-- html itemscope itemtype="http://schema.org/{CONTENT_TYPE}" -->
+  <meta itemprop="name" content="A flexible standing desk for your home or office">
+  <meta itemprop="description" content="Beautifully designed standing desk that is locally produced with high quality wood. This standup desk is perfect for at home or in your office">
+  <meta itemprop="image" content="{{ "/images/StandUp%20Nomad-square.jpg" | prepend: site.url }}">
+  <!-- Twitter -->
+  <meta name="twitter:card" content="Sitting long hours is not healthy. We stand for quality of life and the environment by making design products locally. #liveactively">
+  <meta name="twitter:site" content="@jaswighq">
+  <meta name="twitter:title" content="A flexible standing desk for your home or office">
+  <meta name="twitter:description" content="Beautifully designed standing desk that is locally produced with high quality wood. This standup desk is perfect for at home or in your office">
+  <meta name="twitter:creator" content="@jaswighq">
+  <meta name="twitter:image:src" content="{{ "/images/StandUp%20Nomad-square.jpg" | prepend: site.url }}">
+  <meta name="twitter:player" content="https://youtu.be/h4Td1ri5CRI">
+  <!-- Open Graph General (Facebook & Pinterest) -->
+  <meta property="og:url" content="www.jaswig.com">
+  <meta property="og:title" content="A flexible standing desk for your home or office">
+  <meta property="og:description" content="Beautifully designed standing desk that is locally produced with high quality wood. This standup desk is perfect for at home or in your office">
+  <meta property="og:site_name" content="Jaswig StandUp desks">
+  <meta property="og:image" content="{{ "/images/StandUp%20Nomad-square.jpg" | prepend: site.url }}">
+  <meta property="og:video" content="https://youtu.be/h4Td1ri5CRI">
+
+  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900' rel='stylesheet' type='text/css'>
+  <script src="https://code.jquery.com/jquery-2.2.2.min.js"></script>
+  <script src="{{ "/js/jquery.matchHeight.js" | prepend: site.baseurl }}"></script>
+  <script src="{{ "/js/region.js" | prepend: site.baseurl }}"></script>
+  <script src="{{ "/js/main.js" | prepend: site.baseurl }}"></script>
+</head>

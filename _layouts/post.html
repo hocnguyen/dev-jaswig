@@ -1,0 +1,59 @@
+---
+layout: default
+---
+<div class="post">
+  {% if page.cover %}
+    <div class="post-background" style="background-image: url('{{ page.cover }}');"></div>
+  {% endif %}
+  <div class="post-background-gradient"></div>
+  <div class="post-inner container" {% if page.cover %}style="padding-top: 250px;"{% endif %}>
+    <div class="row padding-bottom">
+      <div class="col-xs-12">
+        <article itemscope itemtype="http://schema.org/BlogPosting">
+          <header class="post-header">
+            <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
+            <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
+          </header>
+
+          <div class="post-content" itemprop="articleBody">
+            {{ content }}
+          </div>
+
+          {% if page.shareBox %}
+          <div class="sharebox">
+            <div class="row">
+              <div class="col-xs-12 col-md-8 sharebox-share">
+                <div class="table">
+                  <div class="table-row">
+                    <div class="table-cell">
+                      <h4 class="upper">Share your opinion</h4>
+                    </div>
+                    <div class="table-cell">
+                      <div class="addthis_sharing_toolbox"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-12 col-md-4 sharebox-contact"><a href="{{ "/contact" | prepend: site.baseurl }}"><h4 class="upper">Contact us</h4></a></div>
+              <div class="col-xs-12 sharebox-tagline">
+                <div class="table">
+                  <div class="table-row">
+                    <div class="table-cell">
+                      <h3>{{ page.shareTagline }}</h3>
+                    </div>
+                    <div class="table-cell sharebox-tagline-link">
+                      <a href="{{ page.shareTaglineUrl }}" class="arrow">{{ page.shareTaglineAction }}</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          {% endif %}
+        </article>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5721cf86f6285ba5"></script>

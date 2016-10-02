@@ -1,0 +1,72 @@
+#scroll-desk-container {
+  display: inline-block;
+  text-align: left;
+  padding: 0 20px;
+}
+
+#scroll-desk {
+  position: relative;
+  height: 450px;
+  width: 250px;
+  #desk-legs {
+    position: absolute;
+    bottom: 20px;
+  }
+  #desk-top {
+    position: absolute;
+    left: 46px;
+    bottom: 50px;
+    transition: 0.5s;
+  }
+  .note {
+    position: absolute;
+    bottom: 0;
+    width: 250px;
+    text-align: center;
+    color: #999;
+    font-size: 80%;
+  }
+}
+
+
+#scroll-desk-control {
+  text-align: center;
+}
+
+#scroll-desk-control-wrapper {
+  overflow: hidden;
+  display: inline-block;
+  background-color: white;
+  box-shadow: 0px 35px 80px 14px rgba(151,139,125,0.15);
+  border-radius: 200px;
+  border: 1px solid $color-subtle;
+}
+
+#scroll-desk-down,
+#scroll-desk-up {
+  padding: 11px 14px;
+  text-align: center;
+  transition: 0.3s all;
+
+  &:hover {
+    color: white;
+    background-color: $color-primary;
+  }
+}
+
+#scroll-desk-up {
+  padding-bottom: 5px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom: 1px solid $color-subtle;
+
+  &:hover {
+    border-bottom: 1px solid $color-primary - 10;
+  }
+}
+
+#scroll-desk-down {
+  padding-top: 5px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}

@@ -1,0 +1,47 @@
+.testimonials {
+  padding-top: 60px;
+  padding-bottom: 70px;
+  border-bottom: 1px solid $color-subtle;
+  margin-bottom: 60px;
+}
+
+.testimonial {
+  margin-bottom: 35px;
+}
+
+.test-avatar {
+  float: left;
+  padding-right: 20px;
+}
+
+.test-avatar-img {
+  position: relative;
+  border-radius: 100px;
+  height: 100px;
+}
+
+.test-avatar-play {
+  position: absolute;
+  top: 27px;
+  left: 30px;
+  cursor: pointer;
+}
+
+.test-avatar-play img {
+
+}
+
+.test-quote {
+  padding-left: 120px;
+}
+
+
+@media (min-width: $screen-md-min) {
+  .testimonial {
+    margin-bottom: 0;
+  }
+
+  .test-quote {
+    max-width: 90%;
+  }
+}

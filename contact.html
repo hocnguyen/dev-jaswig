@@ -1,0 +1,146 @@
+---
+layout: default
+title: Contact
+permalink: /contact/
+position: 4
+---
+
+<div class="contact container">
+  <div class="row">
+    <div class="col-xs-12">
+      <h1 class="large">Contact</h1>
+    </div>
+  </div>
+
+  <div class="contact-locations row">
+    <div class="col-xs-12">
+      <h2>Locations</h2>
+    </div>
+    <div class="col-xs-12">
+      <div class="contact-locations-box">
+        <div class="row">
+          <div class="col-xs-12">
+            <img src="/images/contact.png" class="contact-locations-image" alt="">
+          </div>
+        </div>
+        <div class="contact-locations-general row contact-padding">
+          <div class="col-xs-12">
+            <span>General email: <a href="mailto:standup@jaswig.com"><strong>standup@jaswig.com</strong></a></span>
+          </div>
+        </div>
+        <div class="contact-locations-people row">
+          <div class="col-xs-12 col-md-6 first">
+            <div class="contact-locations-person">
+              <div class="row">
+                <div class="person-image col-xs-12 col-md-4">
+                  <img src="/images/team/mathias.png" alt="">
+                </div>
+                <div class="person-info col-xs-12 col-md-8">
+                  <h3>Mathias Ellegiers (USA)</h3>
+                  <span><i class="fa fa-envelope"></i> <a href="mailto:mathias@jaswig.com">Mathias@jaswig.com</a></span>
+                  <span><i class="fa fa-phone"></i> <a href="tel:+1 (330) 400.3057">+1 (330) 400.3057</a></span>
+                  <span class="person-av">Phone availability: 6AM - 2PM (EST, GMT+5)</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-6 last">
+            <div class="contact-locations-person">
+              <div class="row">
+                <div class="person-image col-xs-12 col-md-4">
+                  <img src="/images/team/henri.png" alt="">
+                </div>
+                <div class="person-info col-xs-12 col-md-8">
+                  <h3>Henri Verheughe (Belgium)</h3>
+                  <span><i class="fa fa-envelope"></i> <a href="mailto:henri@jaswig.com">Henri@jaswig.com</a></span>
+                  <span><i class="fa fa-phone"></i><a href="tel:+32 (478) 28.78.20">+32 (478) 28.78.20</a></span>
+                  <span class="person-av">Phone availability: 9:00h - 18:00h (CET, GMT-1)</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="contact-form row">
+    <a name="success"></a>
+    <div class="col-xs-12">
+      <h2>For information or just to say Hello</h2>
+    </div>
+    <div class="col-xs-12">
+      <div class="contact-box">
+        <div class="row contact-success">
+          <div class="col-xs-12">
+            <h3>Thanks!</h3>
+            <p>
+              We’re excited that you’ve taken the time to write us. One of us will get back to you as soon as possible.
+            </p>
+            <p>
+              Have an outstanding day, <br>
+              The Jaswig team
+            </p>
+          </div>
+        </div>
+        <form action="https://www.getform.org/f/eb913d63-8cbb-4ef4-9998-75fed4446feb" method="POST">
+          <div class="row contact-input-group">
+            <div class="col-xs-12 col-md-4">
+              <label for="firstname">Firstname *</label>
+            </div>
+            <div class="col-xs-12 col-md-8">
+              <input type="text" id="firstname">
+            </div>
+          </div>
+          <div class="row contact-input-group">
+            <div class="col-xs-12 col-md-4">
+              <label for="lastname">Lastname *</label>
+            </div>
+            <div class="col-xs-12 col-md-8">
+              <input type="text" name="lastname">
+            </div>
+          </div>
+          <div class="row contact-input-group padding-below">
+            <div class="col-xs-12 col-md-4">
+              <label for="email">Email Address *</label>
+            </div>
+            <div class="col-xs-12 col-md-8">
+              <input type="text" name="email">
+            </div>
+          </div>
+          <div class="row contact-input-group">
+            <div class="col-xs-12 col-md-4">
+              <label for="subject">Subject *</label>
+            </div>
+            <div class="col-xs-12 col-md-8">
+              <input type="text" name="subject">
+            </div>
+          </div>
+          <div class="row contact-input-group">
+            <div class="col-xs-12 col-md-4">
+              <label for="message">Message *</label>
+            </div>
+            <div class="col-xs-12 col-md-8">
+              <textarea name="message" id="" cols="30" rows="10"></textarea>
+            </div>
+          </div>
+          <div class="row contact-input-group">
+            <div class="col-xs-12 col-md-4">
+            </div>
+            <div class="col-xs-12 col-md-8">
+              <input type="submit" value="Send" class="btn btn-primary">
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  $(function() {
+    if (location.hash === "#success") {
+        $('.contact-success').show();
+    }
+  });
+</script>

@@ -1,0 +1,49 @@
+.sharebox {
+  margin-top: 90px;
+  max-width: 800px;
+  border: 1px solid $color-subtle;
+  overflow: hidden;
+}
+
+.sharebox h4.upper,
+.sharebox h3 {
+  margin: 0;
+}
+
+.sharebox-share,
+.sharebox-contact,
+.sharebox-tagline {
+  padding: 30px 55px;
+}
+
+.sharebox-share,
+.sharebox-contact {
+  border-bottom: 1px solid $color-subtle;
+}
+
+.sharebox-tagline .table-cell {
+  display: block;
+}
+
+.sharebox-tagline .arrow {
+  margin-top: 10px;
+}
+
+@media (min-width: $screen-md-min) {
+  .sharebox-share {
+    border-right: 1px solid $color-subtle;
+  }
+
+  .sharebox-contact {
+    text-align: right;
+    line-height: 38px;
+  }
+
+  .sharebox-tagline .table-cell {
+    display: table-cell;
+  }
+
+  .sharebox-tagline-link {
+    text-align: right;
+  }
+}

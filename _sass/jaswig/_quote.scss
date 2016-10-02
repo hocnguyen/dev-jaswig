@@ -1,0 +1,20 @@
+.quote {
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.quote h2 {
+  color: rgba($color-brown, .5);
+  max-width: 680px;
+  margin: 0px auto;
+  font-weight: 400;
+  font-size: 35px;
+}
+
+.quote .sign {
+  display: block;
+  font-family: $font-secondary;
+  color: rgba($color-brown, .5);
+  margin-top: 10px;
+}

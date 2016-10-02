@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+
+  <body>
+
+    <div id="vue-modal">
+      <div class="video-modal" v-if="modal" v-cloak>
+        <div class="video-modal-background" v-on:click="closeModal"></div>
+        <div class="video-modal-table table">
+          <div class="table-row">
+            <div class="table-cell">
+              <div class="video-modal-wrapper">
+                <div class="video-modal-inner">
+                  <iframe :src.sync="iframeSrc" frameborder="0" allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="background">
+      {% include header.html %}
+      <div class="hero container">
+        <h1 class="headline">Flexible standing desk that fits perfectly in your active life</h1>
+        <div class="play">
+          <a href="#" class="play-video" data-video="https://www.youtube.com/embed/h4Td1ri5CRI?rel=0&amp;autoplay=1&amp;showinfo=0"><img src="/images/play.svg" alt=""></a>
+        </div>
+        <a href="#order" class="cta">Order now</a>
+      </div>
+    </div>
+    {{ content }}
+    {% include footer.html %}
+  </body>
+
+</html>

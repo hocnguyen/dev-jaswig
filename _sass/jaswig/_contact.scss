@@ -1,0 +1,167 @@
+.contact {
+  padding-top: 90px;
+  padding-bottom: 120px;
+}
+
+.contact-locations {}
+
+.contact-locations h2 {
+  margin-top: 0;
+}
+
+.contact-locations-box {
+  margin-bottom: 60px;
+  border: 1px solid $color-subtle;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.contact-locations-image {
+  width: 100%;
+}
+
+.contact-locations-general {
+  padding: 30px;
+  border-bottom: 1px solid $color-subtle;
+  text-align: center;
+  font-size: 18px;
+  font-family: $font-base;
+  font-weight: 300;
+}
+
+.contact-locations-people {
+  & .first {
+    border-bottom: 1px solid $color-subtle;
+  }
+}
+
+.contact-locations-person {
+  padding: 30px;
+  overflow: hidden;
+}
+
+.person-image {
+  overflow: hidden;
+}
+
+.person-image img {
+  width: 100%;
+  margin-right: 20px;
+}
+
+.person-info {
+  text-align: center;
+}
+
+.person-info span {
+  display: block;
+  font-family: $font-base;
+  color: $color-brown;
+  margin-top: 20px;
+}
+
+.person-info span i {
+  margin-right: 5px;
+  color: $color-secondary;
+  width: 30px;
+}
+
+span.person-av {
+  font-size: 12px;
+  margin-top: 10px;
+  opacity: 0.7;
+}
+
+.contact-form {
+  display: none;
+}
+
+.contact-box {
+  border-radius: 5px;
+  border: 1px solid $color-subtle;
+  padding: 20px;
+}
+
+.contact-input-group {
+  margin-bottom: 30px;
+
+  &.padding-below {
+    padding-bottom: 60px;
+  }
+}
+
+.contact-box label {
+  display: block;
+  text-align: left;
+  font-family: $font-base;
+  color: $color-dark;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  padding: 5px 0;
+}
+
+.contact-box input[type="text"],
+.contact-box textarea {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid $color-brown + 75;
+  border-radius: 5px;
+  font-family: $font-base;
+  font-size: 14px;
+  font-weight: 300;
+
+  &:focus {
+    outline: none;
+    border: 1px solid $color-brown + 40;
+  }
+}
+
+.contact-box input[type="submit"] {
+  border: none;
+}
+
+.contact-success {
+  background-color: $color-secondary;
+  border-radius: 5px;
+  padding: 30px;
+  margin-bottom: 50px;
+  display: none;
+}
+
+.contact-success h3,
+.contact-success p {
+  color: white;
+}
+
+@media (min-width: $screen-md-min) {
+  .contact-locations-people .first {
+    border-bottom: 0;
+    border-right: 1px solid $color-subtle;
+  }
+
+  .contact-locations-people .last .contact-locations-person {
+    padding-left: 15px;
+  }
+
+  .person-info {
+    text-align: left;
+  }
+
+  span.person-av {
+    padding-left: 40px;
+  }
+
+  .contact-box {
+    padding: 80px;
+  }
+
+  .contact-box label {
+    text-align: right;
+  }
+
+  .contact-box input[type="text"],
+  .contact-box textarea {
+    width: 60%;
+  }
+}

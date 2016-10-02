@@ -1,0 +1,19 @@
+.how-jaswig-was-born {
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
+
+.how-jaswig-was-born img {
+  margin-top: 20px;
+  width: 100%;
+}
+
+@media (min-width: $screen-md-min) {
+  .how-jaswig-was-born p {
+    max-width: 80%;
+  }
+  
+  .how-jaswig-was-born img {
+    margin-top: 0;
+  }
+}

@@ -1,0 +1,31 @@
+footer ul {
+  margin-bottom: 0;
+}
+
+.c-secondary {
+  color: #6BC6B8 !important;
+}
+
+header ul.horizontal {
+  margin-bottom: 0 !important;
+}
+
+@font-face {
+    font-family: "Brandon Grotesque";
+    src: url("Brandon_reg.woff");
+}
+@font-face {
+    font-family: "Brandon Grotesque";
+    src: url("Brandon_reg.woff");
+    font-weight: 300;
+}
+@font-face {
+    font-family: "Brandon Grotesque";
+    src: url("Brandon_med.woff");
+    font-weight: 500;
+}
+@font-face {
+    font-family: "Brandon Grotesque";
+    src: url("Brandon_bld.woff");
+    font-weight: 800;
+}

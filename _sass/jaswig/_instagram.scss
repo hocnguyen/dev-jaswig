@@ -1,0 +1,30 @@
+.instagram {
+  padding-top: 40px;
+  padding-bottom: 80px;
+}
+
+.instagram-row {
+  @include make-row(10px);
+  line-height: 0;
+}
+
+.instagram-col {
+  @include make-xs-column(6, 10px);
+  @include make-md-column(3, 10px);
+}
+
+.instagram-col-half {
+  @include make-xs-column(6, 10px);
+  width: 50% !important; // Hack
+}
+
+.instagram-container a {
+  display: block;
+  width: 100%;
+  padding-bottom: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  transition: 1.5s background;
+  margin-bottom: 10px;
+}

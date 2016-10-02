@@ -1,0 +1,162 @@
+header {
+  padding-top: 10px;
+}
+
+header .header-table {
+  @extend %table;
+}
+
+header .header-row {
+  @extend %table-row;
+}
+
+header .brand {
+  @extend %table-cell;
+}
+
+header .brand img {
+  width: 2.6vw;
+  max-width: 50px;
+  min-width: 30px;
+}
+
+header nav {
+  @extend %table-cell;
+  text-align: right;
+}
+
+header nav .horizontal {
+  display: inline-block;
+  -webkit-padding-start: 0px;
+}
+
+header nav .horizontal li {
+  list-style-type: none;
+  float: left;
+}
+
+header nav .horizontal .nav-item {
+  display: none;
+}
+
+header nav .horizontal li a {
+  transition: 0.3s all;
+  display: block;
+  font-family: $font-secondary;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 13px;
+  font-weight: 600;
+  border-radius: 50px;
+  padding: 10px 20px;
+  margin-right: 15px;
+  color: $color-dark;
+  background-color: rgba(255,255,255,.75);
+
+  &:hover {
+    background-color: white;
+  }
+
+  &.active {
+    color: white;
+    background-color: rgba(0,0,0,.6);
+  }
+}
+
+header #regionSelector {
+  margin-top: 6px;
+  width: 39px;
+  cursor: pointer;
+  margin-right: 15px;
+}
+
+header .nav-hamburger {
+  display: inline-block;
+}
+
+header .nav-hamburger label {
+  display: inline-block;
+  border-radius: 50px;
+  padding: 10px 20px;
+  color: $color-dark;
+  background-color: rgba(255,255,255,.75);
+}
+
+header .nav-mobile {
+  display: none;
+}
+
+header input[type=checkbox]:checked ~ .nav-mobile {
+  z-index: 4;
+  display: block;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 100%;
+  margin: 0px auto;
+  padding: 50px;
+  text-align: center;
+}
+
+header .nav-mobile-inner {
+  display: inline-block;
+  max-width: 300px;
+  min-width: 250px;
+  background-color: rgba(white, 0.9);
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 0px 35px 80px 14px rgba(151,139,125,0.15);
+}
+
+header .nav-mobile-inner ul {
+  -webkit-padding-start: 0px;
+}
+
+header .nav-mobile-inner ul li {
+  list-style-type: none;
+  display: block;
+  width: 100%;
+  padding-bottom: 10px;
+}
+
+header .nav-mobile-inner ul li a {
+  margin-right: 0;
+  background-color: transparent;
+
+  &:hover {
+    background-color: transparent;
+  }
+
+  &.active {
+    color: white;
+    background-color: rgba(0,0,0,.6);
+  }
+}
+
+header input[type=checkbox]{
+  display: none;
+}
+
+@media (min-width: $screen-md-min) {
+  header {
+    padding-top: 30px;
+  }
+
+  header nav .horizontal .nav-item {
+    display: inline-block;
+  }
+
+  header #regionSelector {
+    margin-right: 0px;
+    margin-bottom: -3px;
+  }
+
+  header .nav-hamburger {
+  display: none;
+  }
+
+  .mobile-nav {
+    display: none !important;
+  }
+}
