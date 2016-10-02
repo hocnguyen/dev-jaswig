@@ -1,0 +1,86 @@
+---
+layout: post
+title: "FAQs"
+description: The answers to the most frequently asked questions about the StandUp
+date: "2016-05-25 22:10:27 +0100"
+cover: "/images/blog/jaswig jigsaw puzzle.jpg"
+thumbnail: "/images/blog/jaswig jigsaw puzzle.jpg"
+categories: blog
+published: true
+
+shareBox: true
+shareSocial: true
+shareTagline: "A healthy standing desk that fits perfectly in your life"
+shareTaglineAction: "More info"
+shareTaglineUrl: "http://www.jaswig.com"
+---
+
+### What is the size range of the desk and how tall should I be?
+
+The height range of the StandUp Nomad (normal and extra wide version) is 36.5 – 48 inch or 93 – 122 cm. The height can be [manually adjusted](https://www.youtube.com/watch?v=ey0lu2gvmB4) with 9 increments, each one of approx. 1.3” or 3.2 cm. No need for pumps or electricity. 
+<!--more-->
+Although not everyone has the same body dimensions, the desk should be perfect for people between 4’11” and 6’6” or 1.5 and 2 m. This is assuming you are standing at your desk with 90°-bend elbows. 
+
+### Difference in desktop sizes
+Our StandUp Nomad comes with two desktop sizes:  
+The **normal version** is more compact: 20 x 25.5 inch or 50 x 65 cm  
+Perfect for working with a laptop, or reading your journal
+
+The **Extra Wide version**: 21.5 x 31.5 inch 55 x 80 cm  
+Perfect for working with a laptop and a notebook, or including a monitor.
+
+![Different Desktop Sizes](/images/blog/desktop sizes.png){:.small}
+
+### What is the floor space I need to put the desk?
+The surface you need for putting the desk is the width of the desktop (depends on the size you chose) and a depth of 2 ft or 61 cm. 
+
+### How do I use my standing desk?
+
+**What is the desk used for?**  
+The StandUp can be used for individual work: e.g. responding to e-mails, making phone calls while having to write notes (standing up gives more energy in your voice), and heavy thinking (standing can help to be more focused). 
+
+The StandUp can mediate collaboration: Have a standing meeting around the StandUp or a more active brainstorming session, like the design team at [Balance, Inc.](http://www.balanceinc.com)
+
+![Active brainstorming at Balance](/images/blog/balance.jpg){:.small}
+
+It is also great for daily home activities like reading your journal or a book, filling in a Sudoku, cutting your vegetables, or as a high-table for presenting your snacks during a party. 
+During pitching events we realized that the ease of adjusting its height makes it great as a presenter stage. No need to bend forward awkwardly. 
+And last but not least, the StandUp can be used for fun. We use it daily for our [ping-pong challenge](https://www.youtube.com/watch?v=bNAKY009ljc).
+
+**Placement**  
+The StandUp is compact and lightweight, so you can easily replace it.
+If you use it for work, we recommend placing it close to an electric plug so you can easily charge your electronics while used at the desk.
+Placing it close to a window makes it more pleasant to use it thanks to natural light and fresh air when needed.
+
+**Standing time**  
+If you just start using a standing desk we recommend increasing your standing time in small steps: e.g. 30 min standing, 30 min sitting. The more you stand, the more your muscles will get used to it, allowing you to stand longer. However, you need to keep changing your postures: Never stand completely straight for long hours at once. Change from standing to sitting, and change your body weight while standing by using the footrest. 
+
+**Ergonomics**  
+Listen to your body, if something hurts you are probably not standing correct. If you mainly use the desk for computer work, we recommend using a laptop stand and external keyboard and mouse. Use something soft to stand on: an anti-fatigue mat in combination with good shoes. Don’t stand still; change posture often. Make sure to rest your arms regularly, they weigh 18% of your body weight and are an important factor leading to neck and back pain.
+
+![How to use a jaswig standing desk correctly](/images/blog/ergonomics.jpg){:.medium}
+
+### The desks are delivered in a flat-packed box; will I be able to assemble the desk myself?
+The “jigsaw puzzle” should be able to be solved in 10-15 min. It comes with a clear manual and if anything is still unclear, the Jaswig team is here to help. You can assemble the desk alone, and you don’t need any additional tool. 
+jaswig 
+
+![Flatpacked jaswig desk comes as a jigsaw puzzle](/images/blog/jaswig jigsaw puzzle.jpg)
+
+### Can the desks be disassembled?
+Yes, they are designed for disassembly. This allows you to easily take it to your next home or office in case you are moving. This also allows us to replace and refurbish a single piece if necessary.  
+How can I clean my desk?
+The desk has a durable kitchen-grade cabinetry finishing, allowing you to clean the desk like other furniture (i.e. water and cleaning soap). 
+
+### What are the material specifications of the desk?
+The StandUp is made out of 18 mm Multiplex Birch, B/BB-quality grade and is FSC-certified. It's finished with a durable kitchen-grade cabinetry finishing that is solvent-based and qualifies to the EN71 Norm.
+Does the desk come in different colors?
+We wish we could say yes, but unfortunately not yet. We currently do not have the capacity yet to cope with different production lines. However, we like to hear from you which color you would have liked. As soon as we can, we will implement your preferences!
+Where are the desks manufactured? 
+For EU orders: Menen & Aalst (Belgium)
+For USA orders: Akron & Middlefield (Ohio)
+
+### Do you ship internationally?
+Unfortunately, currently we only ship to USA and European Union countries. Local production is important to us, as we want to minimize shipping pollution and bring back economic value to our local communities. However, we are working hard on opening other manufacturing hubs in other countries in the near future. The more supporters, the more likely and the faster we will be able to open one close to you.
+
+### How long does shipping take?
+We use ground shipping because this minimizes transportation pollution. Lead times will be communicated on the product page as we are currently not able to guarantee constant lead times due to difficult predictions in supply and demand. Please don’t hesitate contacting us if you have been waiting longer than this. 

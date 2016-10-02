@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Why should I use a standing desk?"
+description: Think about your day and check out how many hours you sit a day!
 date: "2016-04-14 22:10:27 +0100"
 cover: "/images/blog/why-you-should-use-a-standing-desk.jpg"
 thumbnail: "/images/blog/why-you-should-use-a-standing-desk.jpg"
@@ -16,7 +17,7 @@ shareTaglineUrl: "http://www.jaswig.com"
 
 ### Sitting all day makes you lazy… 
 
-How many hours did you sat down yesterday (yes please, do the [calculation](http://www.juststand.org/tabid/866/Default.aspx))? You might think you’re an active person, but chances are high you sit down for more than 16 hours a day and are only active for about 2-4 hours.
+How many hours did you sit down yesterday (yes please, do the [calculation](http://www.juststand.org/tabid/866/Default.aspx))? You might think you’re an active person, but chances are high you sit down for more than 16 hours a day and are only active for about 2-4 hours.
 <!--more-->
 I admit; I was one of those people. Only 25 years and already suffering from back and neck issues because of my horrible posture. Nope, I can’t accept living a life in pain! And those few hours at the gym didn’t solve it…
 
@@ -47,7 +48,7 @@ It's simply **hard to fall asleep** when standing up – we’re no giraffes…
 
 ![Benefits of a JASWIG StandUp Desk](/images/blog/why-jaswig-infographic.jpg){:.medium}
 
-If you still need to convince someone, here is a summary listing research articles, media coverage and books about the sitting disease and the benefits of standing desks.
+If you still need to convince someone, here is a [summary](/images/research_summary.pdf) listing research articles, media coverage and books about the sitting disease and the benefits of standing desks.
 
 Now please, do you want to get your lazy ass out of your comfortable chair* and stand up for your future?
 

@@ -160,3 +160,10 @@ header input[type=checkbox]{
     display: none !important;
   }
 }
+
+// IE fix
+@media all and (-ms-high-contrast:none) {
+  header .brand .site-title img {
+    width: 100%;
+  }
+}

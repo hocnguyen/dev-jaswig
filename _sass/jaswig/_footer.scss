@@ -18,6 +18,27 @@ footer .brand {
   padding-bottom: 20px;
 }
 
+footer .brand .site-title {
+  display: inline-block;
+}
+
+footer .flanders {
+  text-align: center;
+  padding: 0 30px;
+}
+
+footer .flanders-inner {
+  display: inline-block;
+  background-color: white;
+  border-radius: 3px;
+  padding: 0 20px;
+  line-height: 0;
+}
+
+footer .flanders-inner img {
+  height: 45px;
+}
+
 footer .brand img {
   height: 30px;
 }
@@ -64,7 +85,8 @@ footer .social-media {
 @media (min-width: $screen-md-min) {
   footer .brand,
   footer .terms,
-  footer .social-media {
+  footer .social-media,
+  footer .flanders {
     display: table-cell;
     vertical-align: middle;
   }
@@ -94,3 +116,11 @@ footer .social-media {
     text-align: right;
   }
 }
+
+// IE fix
+@media all and (-ms-high-contrast:none) {
+  footer .brand .site-title img {
+    width: 124px;
+  }
+}
+

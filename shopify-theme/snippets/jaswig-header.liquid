@@ -1,54 +1,56 @@
-<header class="container" style="margin-bottom: 50px">
-   <div class="header-table">
-      <div class="header-row">
-         <div class="brand">
-            <a class="site-title" href="http://www.jaswig.com">
-            <img src="{{ 'jaswig-logo-small.svg' | asset_url }}" alt="">
-            </a>
-         </div>
-         <nav>
-            <ul class="horizontal">
-               <li class="nav-item">
-                  <a href="http://www.jaswig.com/">Home</a>
-               </li>
-               <li class="nav-item">
-                  <a href="http://www.jaswig.com/our-story/">Our story</a>
-               </li>
-               <li class="nav-item">
-                  <a href="http://www.jaswig.com/blog/">Blog</a>
-               </li>
-               <li class="nav-item">
-                  <a href="http://www.jaswig.com/contact/">Contact</a>
-               </li>
-            </ul>
-            <ul class="horizontal">
-               <li>
-                 <a href="/cart"><i class="fa fa-shopping-cart"></i> <span>{{ cart.item_count }}</span></a>
-               </li>
-               <li class="nav-hamburger">
-                  <input type="checkbox" id="checkbox_toggle">
-                  <label for="checkbox_toggle"><i class="fa fa-bars"></i></label>
-                  <div class="nav-mobile">
-                     <div class="nav-mobile-inner">
-                        <ul>
-                           <li>
-                              <a href="http://www.jaswig.com/">Home</a>
-                           </li>
-                           <li>
-                              <a href="http://www.jaswig.com/our-story/">Our story</a>
-                           </li>
-                           <li>
-                              <a href="http://www.jaswig.com/blog/">Blog</a>
-                           </li>
-                           <li>
-                              <a class="active" href="http://www.jaswig.com/contact/">Contact</a>
-                           </li>
-                        </ul>
+<header style="margin-bottom: 50px">
+   <div class="wrapper">
+      <div class="header-table">
+         <div class="header-row">
+            <div class="brand">
+               <a class="site-title" href="http://www.jaswig.com">
+               <img src="{{ 'jaswig-logo-small.svg' | asset_url }}" alt="">
+               </a>
+            </div>
+            <nav>
+               <ul class="horizontal">
+                  <li class="nav-item">
+                     <a href="http://www.jaswig.com/">Home</a>
+                  </li>
+                  <li class="nav-item">
+                     <a href="http://www.jaswig.com/our-story/">Our story</a>
+                  </li>
+                  <li class="nav-item">
+                     <a href="http://www.jaswig.com/blog/">Blog</a>
+                  </li>
+                  <li class="nav-item">
+                     <a href="http://www.jaswig.com/contact/">Contact</a>
+                  </li>
+               </ul>
+               <ul class="horizontal">
+                  <li>
+                    <a href="/cart" class="header-card active"><i class="fa fa-shopping-cart"></i> <span class="cart-count header-bar__cart-count{% if cart.item_count == 0 %} hidden-count{% endif %}">{{ cart.item_count }}</span></a>   
+                  </li>
+                  <li class="nav-hamburger">
+                     <input type="checkbox" id="checkbox_toggle">
+                     <label for="checkbox_toggle"><i class="fa fa-bars"></i></label>
+                     <div class="nav-mobile">
+                        <div class="nav-mobile-inner">
+                           <ul>
+                              <li>
+                                 <a href="http://www.jaswig.com/">Home</a>
+                              </li>
+                              <li>
+                                 <a href="http://www.jaswig.com/our-story/">Our story</a>
+                              </li>
+                              <li>
+                                 <a href="http://www.jaswig.com/blog/">Blog</a>
+                              </li>
+                              <li>
+                                 <a class="active" href="http://www.jaswig.com/contact/">Contact</a>
+                              </li>
+                           </ul>
+                        </div>
                      </div>
-                  </div>
-               </li>
-            </ul>
-         </nav>
+                  </li>
+               </ul>
+            </nav>
+         </div>
       </div>
    </div>
 </header>

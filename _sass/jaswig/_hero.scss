@@ -3,6 +3,7 @@
 }
 
 .hero .headline {
+  display: none;
   color: white;
   font-size: 3vw;
   font-weight: 600;
@@ -16,16 +17,17 @@
 
 .hero .play {
   display: block;
+  margin-top: 2.7vw;
   margin-bottom: 0.7vw;
 }
 
 .hero .play img {
-  width: 8vw;
+  width: 25vw;
 }
 
 .hero .cta {
   background-color: $color-primary;
-  display: inline-block;
+  display: none;
   font-family: $font-secondary;
   text-decoration: none;
   text-transform: uppercase;
@@ -44,13 +46,22 @@
   }
 }
 
-@media (min-width: $screen-md-min) {
+@media (min-width: $screen-sm-min) {
   .hero .headline {
+    display: block;
     margin-top: 9vw;
   }
 
   .hero .play {
     display: block;
     margin-bottom: 3vw;
+  }
+
+  .hero .play img {
+    width: 8vw;
+  }
+
+  .hero .cta {
+    display: inline-block;
   }
 }

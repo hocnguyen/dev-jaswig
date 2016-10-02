@@ -29,3 +29,25 @@ header ul.horizontal {
     src: url("Brandon_bld.woff");
     font-weight: 800;
 }
+
+.header-card {
+  margin-right: 0 !important;
+}
+
+main.main-content {
+  padding-bottom: 150px;
+}
+
+.jaswig-product-other {
+  margin-top: 10px;
+}
+
+@media (min-width: 992px) {
+  .jaswig-product-info {
+    padding-left: 80px;
+  }
+
+  main.main-content {
+    padding-top: 40px;
+  }
+}

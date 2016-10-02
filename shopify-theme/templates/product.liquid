@@ -5,7 +5,7 @@
 
   <div class="product-single">
     <div class="grid product-single__hero">
-      <div class="grid__item large--one-half">
+      <div class="grid__item large--two-fifths">
 
         {% if settings.product_thumbnails_position == 'below' or product.images.size < 2 %}
 
@@ -64,11 +64,14 @@
         {% endif %}
 
       </div>
-      <div class="grid__item large--one-half">
+      <div class="grid__item large--three-fifths jaswig-product-info">
         {% comment %}
           <h3 itemprop="brand">{{ product.vendor }}</h3>
         {% endcomment %}
-        <h1 itemprop="name">{{ product.title }}</h1>
+        <h1 itemprop="name">
+          {{ product.title }}
+          <a href="http://www.jaswig.com/#order" class="jaswig-product-other arrow">View other products</a>
+        </h1>
 
         <div itemprop="offers" itemscope itemtype="http://schema.org/Offer">
           {% assign variant = product.selected_or_first_available_variant %}

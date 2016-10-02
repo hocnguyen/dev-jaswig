@@ -55,7 +55,7 @@ $(document).on("ready", function() {
 function geocallback(data) {
   country_code = data.country_code;
   // US and CA will get the US localised version
- /* if (country_code == "US" || country_code == "CA") {
+  /*if (country_code == "US" || country_code == "CA") {
     changeRegion("US");
   }*/
 }

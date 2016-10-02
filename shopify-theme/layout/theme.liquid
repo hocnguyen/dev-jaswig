@@ -77,10 +77,18 @@
       <div class="footer-table">
         <div class="footer-row">
           <div class="brand">
+            <a class="site-title" href="{{ site.baseurl }}/">
             <img src="{{ 'jaswig-logo-white.svg' | asset_url }}" alt="">
+            </a>
+          </div>
+          <div class="flanders">
+            <div class="flanders-inner">
+              <img src="{{ 'flanders-logo.png' | asset_url }}" alt="">
+            </div>
           </div>
           <div class="terms">
             <ul class="list list-left">
+              <li><a href="http://www.jaswig.com/blog/2016/05/25/FAQs">FAQ</a></li>
               <li><a href="http://www.jaswig.com/privacy">Privacy policy</a></li>
               <li><a href="http://www.jaswig.com/terms">Terms &amp; conditions</a></li>
               <li><a href="http://www.jaswig.com/warranty">Warranty policy</a></li>
@@ -99,6 +107,7 @@
       </div>
     </div>
   </footer>
+
 
 
   {% for i in (1..4) %}

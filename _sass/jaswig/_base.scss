@@ -76,7 +76,9 @@ h4.upper {
 }
 
 p,
-.p {
+.p,
+ul,
+ol {
   font-family: $font-base;
   color: $color-brown;
   font-weight: 300;
@@ -240,6 +242,10 @@ a.upper {
 
 .alignc {
   text-align: center;
+}
+
+.c-primary {
+  color: $color-primary;
 }
 
 /* Html, body */

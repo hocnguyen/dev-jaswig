@@ -1,0 +1,19 @@
+.mobile-content {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.mobile-content .headline {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.mobile-content .btn {
+  margin-bottom: 30px;
+}
+
+@media (min-width: $screen-sm-min) {
+  .mobile-content {
+    display: none;
+  }
+}

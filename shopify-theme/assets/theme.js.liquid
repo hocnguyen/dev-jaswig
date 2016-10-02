@@ -186,9 +186,9 @@ theme.addToCartflip = function ($addToCartBtn) {
     })
     .prop('disabled', false)
     .addClass('btn--flipped')
-    .after('<span class="continue-shopping"> <a class="btn--secondary" href="/collections/all">{{ 'products.product.continue_shopping' | t }}</a></span>');
+    .after('<span class="continue-shopping"> <a class="btn--secondary" href="http://www.jaswig.com#order">{{ 'products.product.continue_shopping' | t }}</a></span>');
 
-  $('.continue-shopping a').bind('click', theme.backButton);
+  // $('.continue-shopping a').bind('click', theme.backButton);
 
   // Unflip button if another variant is selected
   $('.single-option-selector, [name="quantity"]').bind('click', function() {

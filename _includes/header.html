@@ -17,9 +17,9 @@
             {% if my_page.title and my_page.position %}
             <li class="nav-item">
               {% if page.url == my_page.url %}
-                <a class="active" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+                <a class="active" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.label }}</a>
               {% else %}
-                <a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+                <a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.label }}</a>
               {% endif %}
             </li>
             {% endif %}
@@ -37,9 +37,9 @@
                     {% if my_page.title and my_page.position %}
                     <li>
                       {% if page.url == my_page.url %}
-                        <a class="active" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+                        <a class="active" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.label }}</a>
                       {% else %}
-                        <a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+                        <a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.label }}</a>
                       {% endif %}
                     </li>
                     {% endif %}

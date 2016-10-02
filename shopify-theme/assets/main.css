@@ -876,6 +876,9 @@ a.upper {
 .alignc {
   text-align: center; }
 
+.c-primary {
+  color: #F68F1F; }
+
 /* Html, body */
 html,
 body {
@@ -885,7 +888,7 @@ body {
 /* Background image */
 .background {
   height: 57vw;
-  background-image: url("/images/jaswig-background.png");
+  background-image: url("/images/jaswig-standing-desk.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -924,6 +927,14 @@ body {
   line-height: 27px;
   color: #978B7D;
   font-weight: 300; }
+
+h3.blogpost-inner-title {
+  font-family: "Brandon Grotesque";
+  color: #1C1B1A;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 35px;
+  margin: 12px 0; }
 
 .contact {
   padding-top: 90px;
@@ -982,6 +993,9 @@ span.person-av {
   margin-top: 10px;
   opacity: 0.7; }
 
+.contact-form {
+  display: none; }
+
 .contact-box {
   border-radius: 5px;
   border: 1px solid #F5F3EF;
@@ -1016,6 +1030,20 @@ span.person-av {
     outline: none;
     border: 1px solid #bfb3a5; }
 
+.contact-box input[type="submit"] {
+  border: none; }
+
+.contact-success {
+  background-color: #6BC6B8;
+  border-radius: 5px;
+  padding: 30px;
+  margin-bottom: 50px;
+  display: none; }
+
+.contact-success h3,
+.contact-success p {
+  color: white; }
+
 @media (min-width: 992px) {
   .contact-locations-people .first {
     border-bottom: 0;
@@ -1048,6 +1076,23 @@ footer {
 footer .brand {
   text-align: center;
   padding-bottom: 20px; }
+
+footer .brand .site-title {
+  display: inline-block; }
+
+footer .flanders {
+  text-align: center;
+  padding: 0 30px; }
+
+footer .flanders-inner {
+  display: inline-block;
+  background-color: white;
+  border-radius: 3px;
+  padding: 0 20px;
+  line-height: 0; }
+
+footer .flanders-inner img {
+  height: 45px; }
 
 footer .brand img {
   height: 30px; }
@@ -1084,7 +1129,8 @@ footer .social-media {
 @media (min-width: 992px) {
   footer .brand,
   footer .terms,
-  footer .social-media {
+  footer .social-media,
+  footer .flanders {
     display: table-cell;
     vertical-align: middle; }
 
@@ -1105,6 +1151,9 @@ footer .social-media {
 
   footer .social-media {
     text-align: right; } }
+@media all and (-ms-high-contrast: none) {
+  footer .brand .site-title img {
+    width: 124px; } }
 header {
   padding-top: 10px; }
 
@@ -1223,10 +1272,14 @@ header input[type=checkbox] {
 
   .mobile-nav {
     display: none !important; } }
+@media all and (-ms-high-contrast: none) {
+  header .brand .site-title img {
+    width: 100%; } }
 .hero {
   text-align: center; }
 
 .hero .headline {
+  display: none;
   color: white;
   font-size: 3vw;
   font-weight: 600;
@@ -1239,14 +1292,15 @@ header input[type=checkbox] {
 
 .hero .play {
   display: block;
+  margin-top: 2.7vw;
   margin-bottom: 0.7vw; }
 
 .hero .play img {
-  width: 8vw; }
+  width: 25vw; }
 
 .hero .cta {
   background-color: #F68F1F;
-  display: inline-block;
+  display: none;
   font-family: "Brandon Grotesque";
   text-decoration: none;
   text-transform: uppercase;
@@ -1262,13 +1316,20 @@ header input[type=checkbox] {
     background-color: #ff9929;
     box-shadow: 0px 10px 20px 0px rgba(110, 72, 31, 0.43); }
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   .hero .headline {
+    display: block;
     margin-top: 9vw; }
 
   .hero .play {
     display: block;
-    margin-bottom: 3vw; } }
+    margin-bottom: 3vw; }
+
+  .hero .play img {
+    width: 8vw; }
+
+  .hero .cta {
+    display: inline-block; } }
 .how-jaswig-was-born {
   padding-top: 100px;
   padding-bottom: 30px; }
@@ -1332,6 +1393,20 @@ header input[type=checkbox] {
   transition: 1.5s background;
   margin-bottom: 10px; }
 
+.mobile-content {
+  padding: 40px 20px;
+  text-align: center; }
+
+.mobile-content .headline {
+  margin-top: 0;
+  margin-bottom: 20px; }
+
+.mobile-content .btn {
+  margin-bottom: 30px; }
+
+@media (min-width: 768px) {
+  .mobile-content {
+    display: none; } }
 .order-title {
   padding-top: 30px;
   padding-bottom: 40px; }
@@ -1444,6 +1519,13 @@ header input[type=checkbox] {
 .post-title {
   color: #F68F1F; }
 
+@media (min-width: 992px) {
+  .post-inner img {
+    width: 100%; }
+    .post-inner img.medium {
+      width: 70%; }
+    .post-inner img.small {
+      width: 40%; } }
 .press {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -1458,15 +1540,21 @@ header input[type=checkbox] {
   margin-bottom: 20px; }
 
 .press ul li img {
-  height: 50px;
+  height: 35px;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%); }
 
 @media (min-width: 992px) {
+  .press ul {
+    padding-left: 30px; }
+
   .press ul li {
     width: auto;
     margin-right: 30px !important;
-    margin-bottom: 0; } }
+    margin-bottom: 0; }
+
+  .press ul li img {
+    height: 50px; } }
 .quote {
   text-align: center;
   padding-top: 60px;
