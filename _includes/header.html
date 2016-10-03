@@ -4,9 +4,9 @@
       <div class="brand">
         <a class="site-title" href="{{ site.baseurl }}/">
           {% if page.url == '/' %}
-            <img src="/images/jaswig-logo-white-small.svg" alt="">
+            <img src="{{ "/images/jaswig-logo-white-small.svg" | prepend: site.baseurl }}" alt="">
           {% else %}
-            <img src="/images/jaswig-logo-small.svg" alt="">
+          <img src="{{ "/images/jaswig-logo-small.svg" | prepend: site.baseurl }}" alt="">
           {% endif %}
         </a>
       </div>
