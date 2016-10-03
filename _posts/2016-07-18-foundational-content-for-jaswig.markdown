@@ -3,8 +3,8 @@ layout: post
 title: "Foundational Content for Jaswig"
 description: Inspiring content that was at the base of Jaswig and keeps us going!
 date: "2016-07-12 10:10:45 +0100"
-cover: "/images/blog/teamjaswig.jpg"
-thumbnail: "/images/blog/teamjaswig.jpg"
+cover: "/devjaswig.github.io/images/blog/teamjaswig.jpg"
+thumbnail: "/devjaswig.github.io/images/blog/teamjaswig.jpg"
 categories: blog
 published: true
 
@@ -28,56 +28,56 @@ This post should be constantly evolving. So check it out regularly if you are in
 
 **Nudge: Improving Decisions About Health, Wealth and Happiness**
 
-![Nudge](/images/blog/nudge.jpg){:style="width:100px;float:right;margin-left:30px;margin-left:10px"}
+![Nudge](/devjaswig.github.io/images/blog/nudge.jpg){:style="width:100px;float:right;margin-left:30px;margin-left:10px"}
 We are influenced by our surroundings. It affects the choices we make, how we feel and behave. Understanding how this works is very powerful indeed.
 
 [https://www.amazon.com/Nudge](https://www.amazon.com/Nudge-Improving-Decisions-Health-Happiness/dp/014311526X)
 
 **The Purpose Economy: How Your Desire for Impact, Personal Growth and Community Is Changing the World**
 
-![The Purpose Economy](/images/blog/thepurposeeconomy.jpg){:style="width:100px;float: left;margin:0 30px 30px 0"} Aaron Hurst argues that after information, purpose will dominate our economic system for the coming years. Why do we do what we do? What is our legacy? Why is our economy shifting towards a sharing economy (of which co-working spaces are an example) with purpose as a place to start?
+![The Purpose Economy](/devjaswig.github.io/images/blog/thepurposeeconomy.jpg){:style="width:100px;float: left;margin:0 30px 30px 0"} Aaron Hurst argues that after information, purpose will dominate our economic system for the coming years. Why do we do what we do? What is our legacy? Why is our economy shifting towards a sharing economy (of which co-working spaces are an example) with purpose as a place to start?
 
 [http://purposeeconomy.com](http://purposeeconomy.com)
 
 **The responsible company: What We've Learned From Patagonia's First 40 Years**
 
-![The Responsible Company](/images/blog/theresponsiblecompany.jpg){:style="width:100px;float:right;margin-left:30px;margin-left:10px"} Incredibly interesting insights on how Yvon Chouinard & Vincent Stanley interpret the first 40 years of Patagonia, which is one of the companies at the forefront of the benefit driven economy.
+![The Responsible Company](/devjaswig.github.io/images/blog/theresponsiblecompany.jpg){:style="width:100px;float:right;margin-left:30px;margin-left:10px"} Incredibly interesting insights on how Yvon Chouinard & Vincent Stanley interpret the first 40 years of Patagonia, which is one of the companies at the forefront of the benefit driven economy.
 
 [http://www.patagonia.com/books](http://eu.patagonia.com/enBE/product/the-responsible-company-what-weve-learned-from-patagonias-first-forty-years-paperback-book?p=BK230-0)
 
 **Cradle-to-Cradle: Remaking the way we make things**
 
-![Cradle To Cradle](/images/blog/cradletocradle.jpg){:style="width:80px;float: left;margin:0 30px 30px 0"} Why not take nature as an example and create a world without waste. Design for effectiveness not for efficiency. This is a game changer!
+![Cradle To Cradle](/devjaswig.github.io/images/blog/cradletocradle.jpg){:style="width:80px;float: left;margin:0 30px 30px 0"} Why not take nature as an example and create a world without waste. Design for effectiveness not for efficiency. This is a game changer!
 
 [https://www.amazon.com/Cradle-to-Cradle](https://www.amazon.com/Cradle-Remaking-Way-Make-Things/dp/0865475873)
 
 **Reinventing Organizations**
 
-![Reinventing Organizations](/images/blog/reinventingorganizations.jpg){:style="width:100px;float:right;margin-left:30px;margin-left:10px"} How we kept inventing radically more productive organizational models time and again? How can I run my organization in a soulful way? What are the conditions for a new organization to thrive?
+![Reinventing Organizations](/devjaswig.github.io/images/blog/reinventingorganizations.jpg){:style="width:100px;float:right;margin-left:30px;margin-left:10px"} How we kept inventing radically more productive organizational models time and again? How can I run my organization in a soulful way? What are the conditions for a new organization to thrive?
 
 [http://www.reinventingorganizations.com/](http://www.reinventingorganizations.com/)
 
 **The Happiness Hypothesis**
 
-![The Happiness Hypothesis](/images/blog/thehappinesshypothesis.JPG){:style="width:120px;float: left;margin:0 30px 30px 0"} This is a book about ten Great Ideas. Each chapter is an attempt to savor one idea that has been discovered by several of the world’s civilizations - to question it in light of what we now know from scientific research, and to extract from it the lessons that still apply to our modern lives. It is a book about how to construct a life of virtue, happiness, fulfillment, and meaning.
+![The Happiness Hypothesis](/devjaswig.github.io/images/blog/thehappinesshypothesis.JPG){:style="width:120px;float: left;margin:0 30px 30px 0"} This is a book about ten Great Ideas. Each chapter is an attempt to savor one idea that has been discovered by several of the world’s civilizations - to question it in light of what we now know from scientific research, and to extract from it the lessons that still apply to our modern lives. It is a book about how to construct a life of virtue, happiness, fulfillment, and meaning.
 
 [http://www.happinesshypothesis.com/](http://www.happinesshypothesis.com/)
 
 **The Upcycle Beyond Sustainability Designing Abundance**
 
-![The Up Cycle](/images/blog/theupcycle.jpg){:style="width:100px;float:right;margin-left:30px;margin-left:10px"} The long awaited follow-up of of the book Cradle to Crade. The authors present their experience of putting cradle to cradle into practice for the past 10 years. 
+![The Up Cycle](/devjaswig.github.io/images/blog/theupcycle.jpg){:style="width:100px;float:right;margin-left:30px;margin-left:10px"} The long awaited follow-up of of the book Cradle to Crade. The authors present their experience of putting cradle to cradle into practice for the past 10 years.
 
 [https://www.amazon.com/The-Upcycle-Beyond-Sustainability-Designing-Abundance](https://www.amazon.com/Upcycle-Beyond-Sustainability-Designing-Abundance/dp/0865477485/ref=pd_bxgy_14_img_3?ie=UTF8&psc=1&refRID=H6VV354XAMEDQFD0T6XB)
 
 **Biomimicry**
 
-![Biomimicry](/images/blog/biomimicry.jpg){:style="width:100px;float: left;margin:0 30px 30px 0"} This book, by Jeanine Benyus, created a paradigm shift. The way we look at nature really changed bigtime. Nature is one big collection of inspiration to make our world a better place. Let's get started!
+![Biomimicry](/devjaswig.github.io/images/blog/biomimicry.jpg){:style="width:100px;float: left;margin:0 30px 30px 0"} This book, by Jeanine Benyus, created a paradigm shift. The way we look at nature really changed bigtime. Nature is one big collection of inspiration to make our world a better place. Let's get started!
 
 [http://biomimicry.net/BioMimicry-the-book](http://biomimicry.net/about/biomimicry/janines-book/)
 
 **Thinking in Systems**
 
-![Thinking in Systems](/images/blog/thinkinginsystems.jpg){:style="width:100px;float:right;margin-left:30px;margin-left:10px"} This books helps you to create insight in problem solving. Be it on a personal or global level. The hypothesis that the big problems in the world are essentially system failures creates large potential!
+![Thinking in Systems](/devjaswig.github.io/images/blog/thinkinginsystems.jpg){:style="width:100px;float:right;margin-left:30px;margin-left:10px"} This books helps you to create insight in problem solving. Be it on a personal or global level. The hypothesis that the big problems in the world are essentially system failures creates large potential!
 
 [https://www.amazon.com/Thinking-Systems](https://www.amazon.com/Thinking-Systems-Donella-H-Meadows/dp/1603580557/ref=pd_sim_14_4?ie=UTF8&dpID=51NNRZBJ%2BsL&dpSrc=sims&preST=_AC_UL320_SR212%2C320_&psc=1&refRID=N5R8MZNYMVH8QNEJSECB)
 
@@ -106,22 +106,22 @@ Inspirational US organisation that nurtures and curates the emergence of the new
 We love to be outdoors and be supmerged in nature. This has led to some very cool travels over the last couple of year. We would love to share some nice spots we have called home for at least a few days in the last couple of years.
 
 **Allah Kul, Kyrgystan**
-![Allah Kul 1](/images/blog/AllahKul1.jpg)![Allah Kul 2](/images/blog/AllahKul2.jpg)
+![Allah Kul 1](/devjaswig.github.io/images/blog/AllahKul1.jpg)![Allah Kul 2](/devjaswig.github.io/images/blog/AllahKul2.jpg)
 
 **Song Kul, Kyrgystan**
-![Song Kul 1](/images/blog/SongKul1.jpg)![Song Kul 2](/images/blog/SongKul2.jpg)
+![Song Kul 1](/devjaswig.github.io/images/blog/SongKul1.jpg)![Song Kul 2](/devjaswig.github.io/images/blog/SongKul2.jpg)
 
 **La Grave, France**
-![La Grave](/images/blog/LaGrave.jpg)
+![La Grave](/devjaswig.github.io/images/blog/LaGrave.jpg)
 
 **Leh, India**
-![Leh](/images/blog/Leh.jpg)
+![Leh](/devjaswig.github.io/images/blog/Leh.jpg)
 
 **The Ardennes, Belgium**
-![Ardennes](/images/blog/Ardennes.jpg)
+![Ardennes](/devjaswig.github.io/images/blog/Ardennes.jpg)
 
 **Gasterntal, Switzerland**
-![Switzerland](/images/blog/Swiss.jpg)
+![Switzerland](/devjaswig.github.io/images/blog/Swiss.jpg)
 
 ### Movies
 

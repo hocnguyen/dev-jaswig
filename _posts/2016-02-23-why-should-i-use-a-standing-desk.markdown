@@ -3,8 +3,8 @@ layout: post
 title: "Why should I use a standing desk?"
 description: Think about your day and check out how many hours you sit a day!
 date: "2016-04-14 22:10:27 +0100"
-cover: "/images/blog/why-you-should-use-a-standing-desk.jpg"
-thumbnail: "/images/blog/why-you-should-use-a-standing-desk.jpg"
+cover: "/devjaswig.github.io/images/blog/why-you-should-use-a-standing-desk.jpg"
+thumbnail: "/devjaswig.github.io/images/blog/why-you-should-use-a-standing-desk.jpg"
 categories: blog
 published: true
 
@@ -46,12 +46,12 @@ You shouldn’t be standing all day either. A height-adjustable standing desk al
 
 It's simply **hard to fall asleep** when standing up – we’re no giraffes… 
 
-![Benefits of a JASWIG StandUp Desk](/images/blog/why-jaswig-infographic.jpg){:.medium}
+![Benefits of a JASWIG StandUp Desk](/devjaswig.github.io/images/blog/why-jaswig-infographic.jpg){:.medium}
 
-If you still need to convince someone, here is a [summary](/images/research_summary.pdf) listing research articles, media coverage and books about the sitting disease and the benefits of standing desks.
+If you still need to convince someone, here is a [summary](/devjaswig.github.io/images/research_summary.pdf) listing research articles, media coverage and books about the sitting disease and the benefits of standing desks.
 
 Now please, do you want to get your lazy ass out of your comfortable chair* and stand up for your future?
 
-![Standing Revolution](/images/blog/standing-revolution.jpg){:.small}
+![Standing Revolution](/devjaswig.github.io/images/blog/standing-revolution.jpg){:.small}
 
 *Use a chair as a luxury product and really enjoy when you’re sitting down… 

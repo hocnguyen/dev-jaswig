@@ -3,8 +3,8 @@ layout: post
 title: "FAQs"
 description: The answers to the most frequently asked questions about the StandUp
 date: "2016-05-25 22:10:27 +0100"
-cover: "/images/blog/jaswig jigsaw puzzle.jpg"
-thumbnail: "/images/blog/jaswig jigsaw puzzle.jpg"
+cover: "/devjaswig.github.io/images/blog/jaswig jigsaw puzzle.jpg"
+thumbnail: "/devjaswig.github.io/images/blog/jaswig jigsaw puzzle.jpg"
 categories: blog
 published: true
 
@@ -29,7 +29,7 @@ Perfect for working with a laptop, or reading your journal
 The **Extra Wide version**: 21.5 x 31.5 inch 55 x 80 cm  
 Perfect for working with a laptop and a notebook, or including a monitor.
 
-![Different Desktop Sizes](/images/blog/desktop sizes.png){:.small}
+![Different Desktop Sizes](/devjaswig.github.io/images/blog/desktop sizes.png){:.small}
 
 ### What is the floor space I need to put the desk?
 The surface you need for putting the desk is the width of the desktop (depends on the size you chose) and a depth of 2 ft or 61 cm. 
@@ -41,7 +41,7 @@ The StandUp can be used for individual work: e.g. responding to e-mails, making 
 
 The StandUp can mediate collaboration: Have a standing meeting around the StandUp or a more active brainstorming session, like the design team at [Balance, Inc.](http://www.balanceinc.com)
 
-![Active brainstorming at Balance](/images/blog/balance.jpg){:.small}
+![Active brainstorming at Balance](/devjaswig.github.io/images/blog/balance.jpg){:.small}
 
 It is also great for daily home activities like reading your journal or a book, filling in a Sudoku, cutting your vegetables, or as a high-table for presenting your snacks during a party. 
 During pitching events we realized that the ease of adjusting its height makes it great as a presenter stage. No need to bend forward awkwardly. 
@@ -58,13 +58,13 @@ If you just start using a standing desk we recommend increasing your standing ti
 **Ergonomics**  
 Listen to your body, if something hurts you are probably not standing correct. If you mainly use the desk for computer work, we recommend using a laptop stand and external keyboard and mouse. Use something soft to stand on: an anti-fatigue mat in combination with good shoes. Don’t stand still; change posture often. Make sure to rest your arms regularly, they weigh 18% of your body weight and are an important factor leading to neck and back pain.
 
-![How to use a jaswig standing desk correctly](/images/blog/ergonomics.jpg){:.medium}
+![How to use a jaswig standing desk correctly](/devjaswig.github.io/images/blog/ergonomics.jpg){:.medium}
 
 ### The desks are delivered in a flat-packed box; will I be able to assemble the desk myself?
 The “jigsaw puzzle” should be able to be solved in 10-15 min. It comes with a clear manual and if anything is still unclear, the Jaswig team is here to help. You can assemble the desk alone, and you don’t need any additional tool. 
 jaswig 
 
-![Flatpacked jaswig desk comes as a jigsaw puzzle](/images/blog/jaswig jigsaw puzzle.jpg)
+![Flatpacked jaswig desk comes as a jigsaw puzzle](/devjaswig.github.io/images/blog/jaswig jigsaw puzzle.jpg)
 
 ### Can the desks be disassembled?
 Yes, they are designed for disassembly. This allows you to easily take it to your next home or office in case you are moving. This also allows us to replace and refurbish a single piece if necessary.  

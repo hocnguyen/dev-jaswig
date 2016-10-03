@@ -3,8 +3,8 @@ layout: post
 title: "Start standing strong"
 description: Join us to get used to standing and being more active!
 date: "2016-06-02 20:10:27 +0100"
-cover: "/images/blog/runner.jpg"
-thumbnail: "/images/blog/runner.jpg"
+cover: "/devjaswig.github.io/images/blog/runner.jpg"
+thumbnail: "/devjaswig.github.io/images/blog/runner.jpg"
 categories: blog
 published: true
 
@@ -30,9 +30,9 @@ When I started to think about of how many hours I was spending sitting, I starte
 
 Because it is not easy to undo a habit, we want to help you. We will remember you to stand at least one hour in the morning, and one hour in the afternoon. It’s up to you to listen to your body and notice when your body has been sitting too long. Maybe you are falling asleep, or your back hurts, or you want to move your legs. Just ask your body. Don’t overdo standing in the beginning either, because you might need to build up your strength and find a good posture that works for you. 
 
-![standing challenge](/images/blog/standingchallenge.jpg){:.medium}
+![standing challenge](/devjaswig.github.io/images/blog/standingchallenge.jpg){:.medium}
 
-We are excited that you want to join our standing revolution. [Download your motivational outstanding calendar here](/images/blog/standingchallengecalendar.jpg). Share your successes, pains, feelings, tips & trics with the world using #StandingRevolution.
+We are excited that you want to join our standing revolution. [Download your motivational outstanding calendar here](/devjaswig.github.io/images/blog/standingchallengecalendar.jpg). Share your successes, pains, feelings, tips & trics with the world using #StandingRevolution.
 
 Don’t let habits overrule your life and make you numb.  
 Let’s turn the [power of habits](http://charlesduhigg.com/the-power-of-habit/) into your own advantage! 

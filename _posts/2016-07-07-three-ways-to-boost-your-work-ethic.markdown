@@ -3,8 +3,8 @@ layout: post
 title: "Three ways to boost your work ethic"
 description: Our enviroment has an impact on our work ethic lets have a look at three ways to boost yours!
 date: "2016-07-07 12:00:27 +0100"
-cover: "/images/blog/AllahKul2.jpg"
-thumbnail: "/images/blog/AllahKul2.jpg"
+cover: "/devjaswig.github.io/images/blog/AllahKul2.jpg"
+thumbnail: "/devjaswig.github.io/images/blog/AllahKul2.jpg"
 categories: blog
 published: true
 
@@ -20,7 +20,7 @@ shareTaglineUrl: "http://www.jaswig.com"
 A big portion of our lives is devoted to work. And work is done in offices. But what is the defenition of "an office" in a time where people are craving for flexibility, health and happiness. 
 <!--more-->
 
-![Happy Office](/images/blog/Happy Office 1.jpg){:.medium}
+![Happy Office](/devjaswig.github.io/images/blog/Happy Office 1.jpg){:.medium}
 
 At Jaswig we believe that the term “office” applies to a whole range of places. People work in co-working spaces ([The Surf Office](https://www.thesurfoffice.com/) is one of our favourites), cubicles, at their home office, in the airport, on the train, etc… Because people work in all these different places flexibility is key in the contemporary work environment! Inspiration on beautiful, flexible workspaces can be found on [our Pinterest page](https://www.pinterest.com/jaswighq/). 
 
@@ -30,7 +30,7 @@ Our work environment and ethic is influenced by a lot of factors. Our managers, 
 
 People have a preprogramed preference for natural elements. Philosopher Yannick Joye from Ghent University, Belgium devoted his PhD to this subject. His research gives us some pretty interesting insights. It turns out that our brain has specific modules for handling natural and non-natural stimuli that could explain the [biophilia hypothesis](https://en.wikipedia.org/wiki/Biophilia_hypothesis) or the love of living systems. 
 
-![Love for Nature](/images/blog/Love for Nature.jpg){:.medium}
+![Love for Nature](/devjaswig.github.io/images/blog/Love for Nature.jpg){:.medium}
 
 Nature is full of [fractal patterns](https://www.youtube.com/watch?v=I_rw-AJqpCM cool video fractals). Fractals are patterns with a certain repetitiveness that displays at every scale and thus showcase an infinite amount of detail. Joye continues his argument that fractal patterns have a stress reducing and aesthetic impact on human beings and thus promote well-being. 
 
@@ -48,7 +48,7 @@ Inspiration on how to introduce fractal forms in architecture can be found in [t
 
 Slowing down is a very hard thing to do; it requires a shift mindset. We are always busy. We even use it as a measure of success. In fact when prompted the question of how life is, one almost always answers “Busy” ([this article](https://medium.com/adventures-in-consumer-technology/there-s-never-any-time-adfe472d8613#.uanxg6zc4) describes "the busy phenomenon" nicely). 
 
-![Slow it Down](/images/blog/Slow it down.jpg){:.small}
+![Slow it Down](/devjaswig.github.io/images/blog/Slow it down.jpg){:.small}
 
 However, our busy lives are actually leading to stressful unproductive lives and work environments. 
 From now on, actively take a step back from time to time. You can find some nice ideas on how to take a good pause [here](http://www.kikki-k.com/hourglass-pause). Training your ability to slow down and be less busy will increase happiness and boost your creativity. Take a walk in the park or have a [walking meeting](http://www.fastcoexist.com/3061579/now-that-we-all-have-standing-desks-will-walking-meetings-actually-catch-on).
@@ -61,7 +61,7 @@ Freedom and autonomy also reflect in the way people are included in certain proc
 
 There are hundreds of options to introduce more inclusive “management” techniques. Books related to this topic include Reinventing Organizations by Frederic Laloux and Holacracy by Brain Robertson. A nice blog post about this subject can be found [here](https://medium.com/creative-order/beyond-hierarchy-holacracy-truly-responsive-organisations-love-authority-18e659d70297#.hk9a9y161).
 
-![Holacracy Infographic](/images/blog/Holacracy Infographic.jpg){:.medium}
+![Holacracy Infographic](/devjaswig.github.io/images/blog/Holacracy Infographic.jpg){:.medium}
 
 Autonomy also reflects the space where people work and the rules at those places. A [study of Stanford University](https://www.gsb.stanford.edu/insights/researchers-flexibility-may-be-key-increased-productivity) showed that if people are granted the freedom to work where they want (co-working space, home office, other company) they are happier. And being happy boosts performance and creativity.
 

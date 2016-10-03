@@ -2,10 +2,10 @@
 layout: post
 title: "How not to use your standing desk"
 description: Some people use their standing desks wrongly. Just a quick wrap up of how you shouldn't use yours!
-url: /blog/2016/07/12/foundational-content-for-jaswig.html
+url: /devjaswig.github.io/blog/2016/07/12/foundational-content-for-jaswig.html
 date: "2016-07-26 10:10:45 +0100"
-cover: "/images/blog/nycstandup.jpg"
-thumbnail: "/images/blog/nycstandup.jpg"
+cover: "/devjaswig.github.io/images/blog/nycstandup.jpg"
+thumbnail: "/devjaswig.github.io/images/blog/nycstandup.jpg"
 categories: blog
 published: true
 
@@ -29,7 +29,7 @@ We also recommend to slowly ramp up  your hours worked while standing. ALWAYS LI
 
 Standing while wearing high heals is not the best thing to do. So, if you are standing behind your desk please take of your heals and give your feet some rest.
 
-![NoHeels](/images/blog/noheels.jpg)
+![NoHeels](/devjaswig.github.io/images/blog/noheels.jpg)
 
 **3. Stand straight without switching positions**
 
@@ -37,7 +37,7 @@ Standing without changing your posture is bad. Use the footrest of your desk or 
 
 We always have the tendency to fix our position in our joints. It is always better to use your muscles in every possible situation (burns more calories and strengthens your muscles). Check out the small movie to see what I mean. It’s not very easy to see but try to mimic my posture and you will feel what I mean.
 
-![GoodPosture](/images/blog/giphy-1.gif)
+![GoodPosture](/devjaswig.github.io/images/blog/giphy-1.gif)
 
 **4. Use it at the same height as your colleagues**
 
