@@ -1,4 +1,4 @@
-$order-card-radius: 10px;
+$order-card-radius: 5px;
 
 .order {}
 
@@ -19,11 +19,11 @@ $order-card-radius: 10px;
 .order-card {
   text-decoration: none;
   margin-bottom: 40px;
+  padding: 0 5px;
 }
 
 .order-card-image {
-  border-top-left-radius: $order-card-radius;
-  border-top-right-radius: $order-card-radius;
+  border-radius: $order-card-radius;
   overflow: hidden;
   line-height: 0px;
 }
@@ -31,12 +31,12 @@ $order-card-radius: 10px;
 .order-card-image img {
   width: 100%;
   max-height: 279px;
+  min-height: 271px;
 }
 
 .order-card-text {
   padding: 30px;
-  border-bottom-left-radius: $order-card-radius;
-  border-bottom-right-radius: $order-card-radius;
+  border-radius: $order-card-radius;
   border: 1px solid $color-subtle;
 }
 
@@ -60,27 +60,24 @@ $order-card-radius: 10px;
   min-height: 110px;
 
 }
-
+.custom_name {
+  color: #1C1B1A;
+  text-decoration: none;
+}
 
 @media (min-width: $screen-md-min) {
   .order-card-image,
   .order-card-text {
-    border-radius: 0px;
+    //border-radius: 0px;
   }
 
-  .order-card.first .order-card-image {
-    border-top-left-radius: $order-card-radius;
+  .order-card-image {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
   }
-  .order-card.first .order-card-text {
-    border-bottom-left-radius: $order-card-radius;
-    border-right: 0;
+  .order-card-text {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
   }
 
-  .order-card.last .order-card-image {
-    border-top-right-radius: $order-card-radius;
-  }
-  .order-card.last .order-card-text {
-    border-bottom-right-radius: $order-card-radius;
-    border-left: 0;
-  }
 }
