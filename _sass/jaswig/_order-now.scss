@@ -62,6 +62,26 @@ $order-card-radius: 5px;
   color: #1C1B1A;
   text-decoration: none;
 }
+.fix_padding_h2 {
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.go_to_eu {
+  text-align: center;
+  margin-top: 0px;
+  padding-bottom: 30px;
+}
+.go_to_eu a {
+  text-decoration: none;
+}
+
+.store_go_to {
+  text-align: left!important;
+}
+.fix_padding_store {
+  margin-bottom: 0px;
+}
 
 @media (min-width: $screen-md-min) {
   .order-card-image,
