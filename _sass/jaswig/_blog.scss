@@ -45,12 +45,14 @@ h3.blogpost-inner-title {
 
 .wrapper-sitemap {
   width: 90%;
-  margin: 0 auto;
+  margin: 20px auto;
 }
+
 .col-sitemap-left {
   float: left;
   width: 15%;
 }
+
 .col-sitemap-left a,
 .col-sitemap-right a {
   text-decoration: none;
@@ -60,15 +62,18 @@ h3.blogpost-inner-title {
   display: inline-block;
   padding: 10px 0;
 }
+
 .col-sitemap-right {
   float: left;
   width: 20%;
+  margin-bottom: 100px;
 }
 
 @media (max-width: 1024px) {
   .col-sitemap-left {
     width: 25%;
   }
+
   .col-sitemap-right {
     width: 45%;
   }
@@ -78,6 +83,7 @@ h3.blogpost-inner-title {
   .col-sitemap-left {
     width: 100%;
   }
+
   .col-sitemap-right {
     width: 100%;
   }
