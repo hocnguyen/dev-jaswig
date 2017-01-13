@@ -69,7 +69,7 @@ A nice [comparison list](http://www.focaluprightfurniture.com/product-comparison
 ### The Muvman sit-stand stool by Aeris  
 ![The Muvman sit-stand stool by Aeris](/devjaswig.github.io/images/blog/aerismuvman.png){:.small}{:style="float: right;margin-right: 7px;margin-top: 7px;"} On first sight the Muvman seems similar to Focal’s Mobis seat, with the price difference of $200 more. However, the Muvman has some important features that make it even more ergonomic: it has a handle bar to carry it around, and it has a unique seat technology and cushioning which gives way to body pressure and thus ensures free blood circulation and a pleasant seat climate. The Muvman also makes a clear statement in design: stylish, elegant, and distinctive.
 
-The seats are manufactured in Horgau, Germany, and the product specs are [available here](http://www.aeris.de/fileadmin/devjaswig.github.io/images/pdf/en/muvman_product_specification_sheet.pdf) and [here](http://www.upliftdesk.com/content/muvman-brochure.pdf) (more material details).
+The seats are manufactured in Horgau, Germany, and the product specs are [available here](http://www.aeris.de/fileadmin/devjaswig.github.io/images/pdf/en/muvman_product_specification_sheet.pdf)  (more material details).
 Translated from their website: *”Aeris products are durable, reparable, practically 100% recyclable and of natural ergonomic excellence.”*  
 The base (Glass-fibre reinforced polyamide, coated) comes in black and grey, and the seat (88 % Polyester, 12 % Polyurethane) colors are black, grey, blue and green. 
 

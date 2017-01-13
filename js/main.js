@@ -12,7 +12,7 @@ $(document).on('ready', function() {
 });
 
 $(document).on('click', '.hero .cta, .mobile-content .cta', function(event) {
-  event.preventDefault();
+  /*event.preventDefault();
   var anchor = $("#order");
-  $('html,body').animate({'scrollTop' : anchor.offset().top}, 900);
+  $('html,body').animate({'scrollTop' : anchor.offset().top}, 900);*/
 });
