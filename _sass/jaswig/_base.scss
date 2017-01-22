@@ -286,7 +286,22 @@ body {
     padding: 10px!important;
   }
 }
-/* custom css space for image  */
+/* custom css - hocnv  */
 .padding_bottom_img {
   margin-bottom: 40px;
+}
+.varier {
+  min-height: 245px!important;
+}
+
+@media (max-width: 991px) {
+  .varier {
+    min-height: 110px!important;
+  }
+}
+
+@media (max-width: 320px) {
+  .varier {
+    min-height: 150px!important;
+  }
 }
