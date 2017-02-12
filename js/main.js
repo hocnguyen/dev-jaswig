@@ -30,7 +30,7 @@ $(document).on('click', '.sign_up', function(event) {
     request = $.ajax({
       url: "https://script.google.com/macros/s/AKfycbx54z9FEpnt2U14TvhD-sbhj8nE_ye2Qu3d0Z0T-G1Pz-Zk9WIG/exec?email="+email,
       type: "get",
-      dataType: "jsonp",
+      dataType: "JSONP",
       success:function(json){
         showMsg("You had sign up email with Jaswig site success! Thank you!");
         that.removeClass("loading_bg");
@@ -38,7 +38,8 @@ $(document).on('click', '.sign_up', function(event) {
         that.prev().val("");
       },
       error: function(xhr, status, error) {
-        if (xhr.status == 200) {
+        // 200 : firefox ; 404 error MIME in chrome; save and send mail success
+        if (xhr.status == 200 || xhr.status == 404) {
           showMsg("You had sign up email with Jaswig site success! Thank you!");
           that.removeClass("loading_bg");
           that.removeAttr("disabled");
