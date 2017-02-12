@@ -17,21 +17,21 @@ $font-secondary: 'Brandon Grotesque';
 
 @font-face {
     font-family: "Brandon Grotesque";
-    src: url("/devjaswig.github.io/fonts/Brandon_reg.woff");
+    src: url("https://hocnguyen.github.io/devjaswig.github.io/fonts/Brandon_reg.woff");
 }
 @font-face {
     font-family: "Brandon Grotesque";
-    src: url("/devjaswig.github.io/fonts/Brandon_reg.woff");
+    src: url("https://hocnguyen.github.io/devjaswig.github.io/fonts/Brandon_reg.woff");
     font-weight: 300;
 }
 @font-face {
     font-family: "Brandon Grotesque";
-    src: url("/devjaswig.github.io/fonts/Brandon_med.woff");
+    src: url("https://hocnguyen.github.io/devjaswig.github.io/fonts/Brandon_med.woff");
     font-weight: 500;
 }
 @font-face {
     font-family: "Brandon Grotesque";
-    src: url("/devjaswig.github.io/fonts/Brandon_bld.woff");
+    src: url("https://hocnguyen.github.io/devjaswig.github.io/fonts/Brandon_bld.woff");
     font-weight: 800;
 }
 
@@ -258,7 +258,7 @@ body {
 /* Background image */
 .background {
   height: 57vw;
-  background-image: url('/devjaswig.github.io/images/jaswig-standing-desk.jpg');
+  background-image: url('https://hocnguyen.github.io/devjaswig.github.io/images/jaswig-standing-desk.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -295,6 +295,44 @@ body {
 }
 .fix_height {
   min-height: 82px!important;
+}
+
+.coupon h4 {
+  color: white;
+  margin-top: 35px;
+  font-size: 20px;
+  font-family: Roboto;
+  font-weight: 600;
+}
+
+.email_coupon {
+  background-color: white;
+  width: 355px;
+  margin: 0 auto;
+}
+
+.txtemail {
+  border: none;
+  height: 35px;
+  width: 265px;
+  padding-left: 5px;
+  font-size: small;
+}
+
+.sign_up {
+  background-color: #F68F1F;
+  border: none;
+  color: white;
+  height: 30px;
+  width: 80px;
+  cursor: pointer;
+  margin-top: 3px;
+}
+
+.loading_bg {
+  background-image: url("/images/ajax-loader.gif");
+  background-repeat: no-repeat;
+  background-position: 50%;
 }
 
 @media (max-width: 991px) {
