@@ -22,7 +22,6 @@ $(document).on('click', '.sign_up', function(event) {
   var that = $(this);
   var email = $(".txtemail").val();
   if (validateEmail(email)) {
-    that.addClass("loading_bg");
     that.attr("disabled","disabled");
     if (request) {
       request.abort();
@@ -32,16 +31,14 @@ $(document).on('click', '.sign_up', function(event) {
       type: "get",
       dataType: "JSONP",
       success:function(json){
-        showMsg("You had sign up email with Jaswig site success! Thank you!");
-        that.removeClass("loading_bg");
+        showMsg("Be inspired by our health tips and we’ll send you a 50$ coupon shortly");
         that.removeAttr("disabled");
         that.prev().val("");
       },
       error: function(xhr, status, error) {
         // 200 : firefox ; 404 error MIME in chrome; save and send mail success
         if (xhr.status == 200 || xhr.status == 404) {
-          showMsg("You had sign up email with Jaswig site success! Thank you!");
-          that.removeClass("loading_bg");
+          showMsg("Be inspired by our health tips and we’ll send you a 50$ coupon shortly");
           that.removeAttr("disabled");
           that.prev().val("");
         }
