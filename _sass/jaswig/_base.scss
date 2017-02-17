@@ -391,6 +391,7 @@ body {
     font-size: small;
     border-right: none;
     -webkit-appearance:none;
+    border-radius: 0;
   }
 
   .mobile .sign_up {
@@ -400,8 +401,9 @@ body {
     height: 35px;
     width: 80px;
     cursor: pointer;
-    margin-left: -3px;
+    margin-left: -4px;
     -webkit-appearance:none;
+    border-radius: 0;
   }
 }
 
