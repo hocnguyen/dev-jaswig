@@ -27,11 +27,11 @@ $(document).on('click', '.mobile .sign_up, .desktop .sign_up', function(event) {
       request.abort();
     }
     request = $.ajax({
-      //url: "https://script.google.com/macros/s/AKfycbx54z9FEpnt2U14TvhD-sbhj8nE_ye2Qu3d0Z0T-G1Pz-Zk9WIG/exec?email="+email,
       url: "https://script.google.com/macros/s/AKfycby3s4CEZZJZaHF0919GmsaOeu6NKz8u-aLcm7BqfeYNzFxfZ9U3/exec?Email="+email,
       type: "get",
       dataType: "JSONP",
       success:function(json){
+        $("#myModalLabel").html("Outstanding");
         showMsg("Be inspired by our health tips and we’ll send you a 50$ coupon shortly");
         that.removeAttr("disabled");
         that.prev().val("");
@@ -39,6 +39,7 @@ $(document).on('click', '.mobile .sign_up, .desktop .sign_up', function(event) {
       error: function(xhr, status, error) {
         // 200 : firefox ; 404 error MIME in chrome; save and send mail success
         if (xhr.status == 200 || xhr.status == 404) {
+          $("#myModalLabel").html("Outstanding");
           showMsg("Be inspired by our health tips and we’ll send you a 50$ coupon shortly");
           that.removeAttr("disabled");
           that.prev().val("");
@@ -46,7 +47,12 @@ $(document).on('click', '.mobile .sign_up, .desktop .sign_up', function(event) {
       }
     });
   } else {
-    showMsg("Please sure you had inputted correct email!");
+    $("#myModalLabel").html("Whoops");
+    if (email == "") {
+      showMsg("Something went wrong. Please input your email address again.");
+    } else {
+      showMsg("Something went wrong. Please make sure you entered the correct email.");
+    }
   }
 
 });
