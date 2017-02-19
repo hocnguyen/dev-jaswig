@@ -20,7 +20,7 @@ $(document).on('click', '.hero .cta, .mobile-content .cta', function(event) {
 var request;
 $(document).on('click', '.sign_up', function(event) {
   var that = $(this);
-  var email = $(".txtemail").val();
+  var email = that.prev().val();
   if (validateEmail(email)) {
     that.attr("disabled","disabled");
     if (request) {
