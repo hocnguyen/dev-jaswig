@@ -18,7 +18,7 @@ $(document).on('click', '.hero .cta, .mobile-content .cta', function(event) {
 });
 
 var request;
-$(document).on('click', '.sign_up', function(event) {
+$(document).on('click', '.mobile .sign_up, .desktop .sign_up', function(event) {
   var that = $(this);
   var email = that.prev().val();
   alert(email);
@@ -28,8 +28,8 @@ $(document).on('click', '.sign_up', function(event) {
       request.abort();
     }
     request = $.ajax({
-      //url: "https://script.google.com/macros/s/AKfycbx54z9FEpnt2U14TvhD-sbhj8nE_ye2Qu3d0Z0T-G1Pz-Zk9WIG/exec?email="+email,
-      url: "https://script.google.com/macros/s/AKfycby3s4CEZZJZaHF0919GmsaOeu6NKz8u-aLcm7BqfeYNzFxfZ9U3/exec?email="+email,
+      url: "https://script.google.com/macros/s/AKfycbx54z9FEpnt2U14TvhD-sbhj8nE_ye2Qu3d0Z0T-G1Pz-Zk9WIG/exec?email="+email,
+      //url: "https://script.google.com/macros/s/AKfycby3s4CEZZJZaHF0919GmsaOeu6NKz8u-aLcm7BqfeYNzFxfZ9U3/exec?email="+email,
       type: "get",
       dataType: "JSONP",
       success:function(json){
