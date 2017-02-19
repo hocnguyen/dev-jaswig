@@ -21,6 +21,7 @@ var request;
 $(document).on('click', '.sign_up', function(event) {
   var that = $(this);
   var email = that.prev().val();
+  alert(email);
   if (validateEmail(email)) {
     that.attr("disabled","disabled");
     if (request) {
