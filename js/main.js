@@ -28,6 +28,7 @@ $(document).on('click', '.mobile .sign_up, .desktop .sign_up', function(event) {
     }
     request = $.ajax({
       url: "https://script.google.com/macros/s/AKfycby3s4CEZZJZaHF0919GmsaOeu6NKz8u-aLcm7BqfeYNzFxfZ9U3/exec?Email="+email,
+      //url: "https://script.google.com/macros/s/AKfycbx54z9FEpnt2U14TvhD-sbhj8nE_ye2Qu3d0Z0T-G1Pz-Zk9WIG/exec?email="+email,
       type: "get",
       dataType: "JSONP",
       success:function(json){
@@ -54,7 +55,6 @@ $(document).on('click', '.mobile .sign_up, .desktop .sign_up', function(event) {
       showMsg("Something went wrong. Please make sure you entered the correct email.");
     }
   }
-
 });
 function showMsg(msg) {
   $(".content_msg").html(msg);
