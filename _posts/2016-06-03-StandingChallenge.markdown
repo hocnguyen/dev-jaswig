@@ -32,7 +32,7 @@ Because it is not easy to undo a habit, we want to help you. We will remember yo
 
 ![standing challenge](/devjaswig.github.io/images/blog/standingchallenge.jpg){:.medium}
 
-We are excited that you want to join our standing revolution. [Download your motivational outstanding calendar here](/devjaswig.github.io/images/blog/standingchallengecalendar.jpg). Share your successes, pains, feelings, tips & trics with the world using #StandingRevolution.
+We are excited that you want to join our standing revolution. [Download your motivational outstanding calendar here](/devjaswig.github.io/images/blog/standingchallengecalendar.jpg){:target="_blank"}. Share your successes, pains, feelings, tips & trics with the world using #StandingRevolution.
 
 Don’t let habits overrule your life and make you numb.  
-Let’s turn the [power of habits](http://charlesduhigg.com/the-power-of-habit/) into your own advantage! 
+Let’s turn the [power of habits](http://charlesduhigg.com/the-power-of-habit/){:target="_blank"} into your own advantage!
