@@ -16,7 +16,7 @@ function jsonFlickrApi(response) {
 $(document).on('ready', function() {
   var instagramPhoto = Vue.extend({
     props: ['photos', 'id'],
-    template: '<a href="http://www.instagram.com/jaswighq" :style.sync="getBackgroundImage">{photo}</a>',
+    template: '<a href="http://www.instagram.com/jaswigusa" target="_blank" :style.sync="getBackgroundImage">{photo}</a>',
 
     data: function () {
       return {
