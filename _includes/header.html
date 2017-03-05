@@ -2,7 +2,7 @@
   <div class="header-table">
     <div class="header-row">
       <div class="brand">
-        <a class="site-title" href="{{ site.baseurl }}/">
+        <a class="site-title" href="{{ site.baseurl }}/" target="_blank">
           {% if page.url == '/' %}
             <img src="{{ site.baseurl }}/images/jaswig-logo-white-small.svg" alt="">
           {% else %}
@@ -17,9 +17,9 @@
             {% if my_page.title and my_page.position %}
             <li class="nav-item">
               {% if page.url == my_page.url %}
-                <a class="active" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.label }}</a>
+                <a class="active" href="{{ my_page.url | prepend: site.baseurl }}" target="_blank">{{ my_page.label }}</a>
               {% else %}
-                <a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.label }}</a>
+                <a href="{{ my_page.url | prepend: site.baseurl }}" target="_blank" >{{ my_page.label }}</a>
               {% endif %}
             </li>
             {% endif %}
@@ -37,9 +37,9 @@
                     {% if my_page.title and my_page.position %}
                     <li>
                       {% if page.url == my_page.url %}
-                        <a class="active" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.label }}</a>
+                        <a class="active" href="{{ my_page.url | prepend: site.baseurl }}" target="_blank">{{ my_page.label }}</a>
                       {% else %}
-                        <a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.label }}</a>
+                        <a href="{{ my_page.url | prepend: site.baseurl }}" target="_blank">{{ my_page.label }}</a>
                       {% endif %}
                     </li>
                     {% endif %}

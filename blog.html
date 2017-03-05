@@ -17,12 +17,12 @@ position: 4
     <div class="col-xs-12 col-sm-6 col-md-4">
       <div class="blogpost">
         {% if post.thumbnail %}
-          <a href="{{ post.url | prepend: site.baseurl }}">
+          <a href="{{ post.url | prepend: site.baseurl }}" target="_blank">
             <img src="{{ post.thumbnail }}" alt="">
           </a>
         {% endif %}
         <div class="blogpost-inner">
-          <h3 class="blogpost-inner-title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+          <h3 class="blogpost-inner-title"><a href="{{ post.url | prepend: site.baseurl }}" target="_blank">{{ post.title }}</a></h3>
           <p>
             {% if post.excerpt %}
               {{ post.excerpt }}
