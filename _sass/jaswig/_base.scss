@@ -328,6 +328,13 @@ body {
   padding-bottom: 220px;
 }
 
+.address {
+  color: #F68F1F!important;
+}
+
+.fix-show-desktop {
+  margin-left: 25%;
+}
 /* custom text size for mobile  */
 @media (max-width: 1024px) {
   .hero .headline {
@@ -341,6 +348,7 @@ body {
     width: 348px!important;
   }
 }
+
 
 @media (max-width: 768px) {
   h1 {
@@ -372,6 +380,10 @@ body {
 @media (max-width: 991px) {
   .varier {
     min-height: 110px!important;
+  }
+
+  .fix-show-desktop {
+    margin-left: 0;
   }
 }
 
