@@ -85,6 +85,12 @@ $order-card-radius: 5px;
   margin-bottom: 0px;
 }
 
+.through_line {
+  margin-left: 5px;
+  color: rgba(128, 128, 128, 0.76);
+  text-decoration: line-through;
+}
+
 @media (min-width: $screen-md-min) {
   .order-card-image,
   .order-card-text {
