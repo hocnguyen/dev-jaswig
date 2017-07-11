@@ -350,6 +350,12 @@ body {
   text-align: center;
   font-family: Roboto;
 }
+.fix-cart-icon {
+  padding-bottom: 20px;
+}
+.fix-cart-icon li a{
+  font-size: 20px!important;
+}
 
 /* custom text size for mobile  */
 @media (max-width: 1024px) {
@@ -447,6 +453,9 @@ body {
   }
   .hero .play {
     margin-top:15vw!important;
+  }
+  .fix-cart-icon {
+    padding-bottom: 0px!important;
   }
 }
 

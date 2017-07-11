@@ -59,8 +59,10 @@ header nav .horizontal li a {
   }
 
   &.active {
-    color: white;
-    background-color: rgba(0,0,0,.6);
+    color: black;
+    /*background-color: rgba(0,0,0,.6);*/
+    border-radius: 0px;
+    border-bottom: 2px solid black;
   }
 }
 
@@ -130,7 +132,7 @@ header .nav-mobile-inner ul li a {
 
   &.active {
     color: white;
-    background-color: rgba(0,0,0,.6);
+    background-color: black;
   }
 }
 
