@@ -356,7 +356,12 @@ body {
 .fix-cart-icon li a{
   font-size: 20px!important;
 }
-
+.error {
+  color: red;
+}
+.hide_lbl {
+  display: none!important;
+}
 /* custom text size for mobile  */
 @media (max-width: 1024px) {
   .hero .headline {

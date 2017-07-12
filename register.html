@@ -1,0 +1,120 @@
+---
+layout: default
+title: Register  | Jaswig
+permalink: /register/
+---
+<script src='{{ "/js/jquery.validate.js" | prepend: site.baseurl }}'></script>
+<div class="contact container">
+  <div class="row">
+    <div class="col-xs-12">
+      <h1 class="large">Register Jaswig</h1>
+    </div>
+  </div>
+
+  <div class="contact-locations row">
+    <!--<div class="col-xs-12">
+      <h2 class="title_center">Register Form</h2>
+    </div>-->
+    <div class="col-xs-12 col">
+      <form class="form-horizontal register_form" action="/register/" id="register_form">
+        <div class="form-group">
+          <label class="col-sm-2 control-label">First Name</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" name="first_name" placeholder="First Name">
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="col-sm-2 control-label">Last Name</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" name="last_name" placeholder="Last Name">
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="col-sm-2 control-label">Address</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" name="address" placeholder="Address">
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="col-sm-2 control-label">Email</label>
+          <div class="col-sm-10">
+            <input type="email" class="form-control" name="email" placeholder="Email">
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="col-sm-2 control-label">Phone</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" name="phone" placeholder="Phone">
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="col-sm-2 control-label">Purchased at</label>
+          <div class="col-sm-10">
+            <select class="form-control" name="purchase">
+              <option value="Jaswig.com">Jaswig.com</option>
+              <option value="Amazon.com">Amazon.com</option>
+              <option value="Etsy.com">Etsy.com</option>
+              <option value="Goop.com">Goop.com</option>
+              <option value="Houzz.com">Houzz.com</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="col-sm-offset-2 col-sm-10">
+            <button type="submit" class="btn btn-default ">Sign up</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+
+</div>
+
+<script>
+  $(document).ready(function () {
+
+    $('#register_form').validate({
+      rules: {
+        first_name: {
+          required: true
+        },
+        last_name: {
+          required: true
+        },
+        address: {
+          required: true
+        },
+        email: {
+          required: true,
+          email: true
+        },
+        phone: {
+          required: true
+        }
+      },
+      highlight: function (element) {
+        $(element).closest('.form-group').removeClass('success').addClass('error');
+      },
+      success: function (element) {
+        element.addClass('valid hide_lbl').removeClass('error')
+                .closest('.form-group').removeClass('error').addClass('success');
+      }
+    });
+
+  });
+</script>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel"></h4>
+      </div>
+      <div class="modal-body">
+        <p class="content_msg"></p>
+      </div>
+    </div>
+  </div>
+</div>
