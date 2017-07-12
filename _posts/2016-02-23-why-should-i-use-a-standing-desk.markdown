@@ -48,7 +48,7 @@ It's simply **hard to fall asleep** when standing up – we’re no giraffes…
 
 ![Benefits of a JASWIG StandUp Desk](/devjaswig.github.io/images/blog/why-jaswig-infographic.jpg){:.medium}
 
-If you still need to convince someone, here is a [summary](/devjaswig.github.io/images/research_summary.pdf){:target="_blank"} listing research articles, media coverage and books about the sitting disease and the benefits of standing desks.
+If you still need to convince someone, here is a [summary](/devjaswig.github.io/images/research_summary.pdf){:download=""}{:target="_blank"} listing research articles, media coverage and books about the sitting disease and the benefits of standing desks.
 
 Now please, do you want to get your lazy ass out of your comfortable chair* and stand up for your future?
 
