@@ -61,14 +61,18 @@ $(document).on('submit', '#register_form', function(event) {
   var that = $(this);
   var fname = that.find("input[name='first_name']").val();
   var lname = that.find("input[name='last_name']").val();
-  var add = that.find("input[name='address']").val();
+  var street = that.find("input[name='street']").val();
+  var city = that.find("input[name='city']").val();
+  var country = that.find("select[name='country']").val();
+  var states = that.find("select[name='states']").val();
+  var zip = that.find("input[name='zip_code']").val();
   var email = that.find("input[name='email']").val();
   var phone = that.find("input[name='phone']").val();
   var purchase = that.find("select[name='purchase']").val();
   if (request) {
     request.abort();
   }
-  var param = "First Name="+fname+"&Last Name="+lname+"&Email="+email+"&Address="+add+"&Phone number="+phone+"&Purchased at="+purchase;
+  var param = "First Name="+fname+"&Last Name="+lname+"&Email="+email+"&Street="+street+"&City="+city+"&State="+states+"&Zip="+zip+"&Country="+country+"&Phone number="+phone+"&Purchased at="+purchase;
   request = $.ajax({
     url: "https://script.google.com/macros/s/AKfycbzgL5FdyskW1IGnS2JYre4AY7lOlzPuW171OKIMGKBiIeEmhX8/exec?"+param,
     type: "get",

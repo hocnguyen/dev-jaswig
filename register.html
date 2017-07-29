@@ -19,37 +19,119 @@ permalink: /register/
       <form class="form-horizontal register_form" action="/register/" id="register_form">
         <div class="form-group">
           <label class="col-sm-2 control-label">First Name</label>
-          <div class="col-sm-10">
+          <div class="col-sm-4">
             <input type="text" class="form-control" name="first_name" placeholder="First Name">
           </div>
-        </div>
-        <div class="form-group">
           <label class="col-sm-2 control-label">Last Name</label>
-          <div class="col-sm-10">
+          <div class="col-sm-4">
             <input type="text" class="form-control" name="last_name" placeholder="Last Name">
           </div>
         </div>
+
         <div class="form-group">
-          <label class="col-sm-2 control-label">Address</label>
-          <div class="col-sm-10">
-            <input type="text" class="form-control" name="address" placeholder="Address">
+          <label class="col-sm-2 control-label">Street</label>
+          <div class="col-sm-4">
+            <input type="text" class="form-control" name="street" placeholder="Street">
+          </div>
+          <label class="col-sm-2 control-label">City</label>
+          <div class="col-sm-4">
+            <input type="text" class="form-control" name="city" placeholder="City">
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="col-sm-2 control-label">Country</label>
+          <div class="col-sm-4">
+            <select name="country" id="country" class="form-control" >
+              <option value="United States">United States</option>
+              <option value="Canada"> Canada</option>
+            </select>
+          </div>
+          <label class="col-sm-2 control-label">States</label>
+          <div class="col-sm-4">
+            <select placeholder="States" class="form-control" id="states" name="states" >
+              <option value="" disabled="">State</option>
+              <option data-code="AL" value="Alabama">Alabama</option>
+              <option data-code="AK" value="Alaska">Alaska</option>
+              <option data-code="AS" value="American Samoa">American Samoa</option>
+              <option data-code="AZ" value="Arizona">Arizona</option>
+              <option data-code="AR" value="Arkansas">Arkansas</option>
+              <option data-code="CA" value="California">California</option>
+              <option data-code="CO" value="Colorado">Colorado</option>
+              <option data-code="CT" value="Connecticut">Connecticut</option>
+              <option data-code="DE" value="Delaware">Delaware</option>
+              <option data-code="DC" value="District of Columbia">District of Columbia</option>
+              <option data-code="FM" value="Federated States of Micronesia">Federated States of Micronesia</option>
+              <option data-code="FL" value="Florida">Florida</option>
+              <option data-code="GA" value="Georgia">Georgia</option>
+              <option data-code="GU" value="Guam">Guam</option>
+              <option data-code="HI" value="Hawaii">Hawaii</option>
+              <option data-code="ID" value="Idaho">Idaho</option>
+              <option data-code="IL" value="Illinois">Illinois</option>
+              <option data-code="IN" value="Indiana">Indiana</option>
+              <option data-code="IA" value="Iowa">Iowa</option>
+              <option data-code="KS" value="Kansas">Kansas</option>
+              <option data-code="KY" value="Kentucky">Kentucky</option>
+              <option data-code="LA" value="Louisiana">Louisiana</option>
+              <option data-code="ME" value="Maine">Maine</option>
+              <option data-code="MH" value="Marshall Islands">Marshall Islands</option>
+              <option data-code="MD" value="Maryland">Maryland</option>
+              <option data-code="MA" value="Massachusetts">Massachusetts</option>
+              <option data-code="MI" value="Michigan">Michigan</option>
+              <option data-code="MN" value="Minnesota">Minnesota</option>
+              <option data-code="MS" value="Mississippi">Mississippi</option>
+              <option data-code="MO" value="Missouri">Missouri</option>
+              <option data-code="MT" value="Montana">Montana</option>
+              <option data-code="NE" value="Nebraska">Nebraska</option>
+              <option data-code="NV" value="Nevada">Nevada</option>
+              <option data-code="NH" value="New Hampshire">New Hampshire</option>
+              <option data-code="NJ" value="New Jersey">New Jersey</option>
+              <option data-code="NM" value="New Mexico">New Mexico</option>
+              <option data-code="NY" value="New York">New York</option>
+              <option data-code="NC" value="North Carolina">North Carolina</option>
+              <option data-code="ND" value="North Dakota">North Dakota</option>
+              <option data-code="MP" value="Northern Mariana Islands">Northern Mariana Islands</option>
+              <option data-code="OH" value="Ohio">Ohio</option>
+              <option data-code="OK" value="Oklahoma">Oklahoma</option>
+              <option data-code="OR" value="Oregon">Oregon</option>
+              <option data-code="PW" value="Palau">Palau</option>
+              <option data-code="PA" value="Pennsylvania">Pennsylvania</option>
+              <option data-code="PR" value="Puerto Rico">Puerto Rico</option>
+              <option data-code="RI" value="Rhode Island">Rhode Island</option>
+              <option data-code="SC" value="South Carolina">South Carolina</option>
+              <option data-code="SD" value="South Dakota">South Dakota</option>
+              <option data-code="TN" value="Tennessee">Tennessee</option>
+              <option data-code="TX" value="Texas">Texas</option>
+              <option data-code="UT" value="Utah">Utah</option>
+              <option data-code="VT" value="Vermont">Vermont</option>
+              <option data-code="VI" value="Virgin Islands">Virgin Islands</option>
+              <option data-code="VA" value="Virginia">Virginia</option>
+              <option data-code="WA" value="Washington">Washington</option>
+              <option data-code="WV" value="West Virginia">West Virginia</option>
+              <option data-code="WI" value="Wisconsin">Wisconsin</option>
+              <option data-code="WY" value="Wyoming">Wyoming</option>
+              <option data-code="AA" value="Armed Forces Americas">Armed Forces Americas</option>
+              <option data-code="AE" value="Armed Forces Europe">Armed Forces Europe</option>
+              <option data-code="AP" value="Armed Forces Pacific">Armed Forces Pacific</option>
+            </select>
           </div>
         </div>
         <div class="form-group">
           <label class="col-sm-2 control-label">Email</label>
-          <div class="col-sm-10">
+          <div class="col-sm-4">
             <input type="email" class="form-control" name="email" placeholder="Email">
+          </div>
+          <label class="col-sm-2 control-label">Zip Code</label>
+          <div class="col-sm-4">
+            <input type="text" class="form-control" name="zip_code" placeholder="Zip">
           </div>
         </div>
         <div class="form-group">
           <label class="col-sm-2 control-label">Phone</label>
-          <div class="col-sm-10">
+          <div class="col-sm-4">
             <input type="text" class="form-control" name="phone" placeholder="Phone">
           </div>
-        </div>
-        <div class="form-group">
           <label class="col-sm-2 control-label">Purchased at</label>
-          <div class="col-sm-10">
+          <div class="col-sm-4">
             <select class="form-control" name="purchase">
               <option value="Jaswig.com">Jaswig.com</option>
               <option value="Amazon.com">Amazon.com</option>
@@ -73,6 +155,89 @@ permalink: /register/
 <script>
   $(document).ready(function () {
 
+    $("#country").change(function () {
+          var country = this.value;
+          if (country == "Canada") {
+              var data = '<option data-code="AB" value="Alberta">Alberta</option>';
+                  data+= '<option data-code="BC" value="British Columbia">British Columbia</option>';
+                  data+= '<option data-code="MB" value="Manitoba">Manitoba</option>';
+                  data+= '<option data-code="NB" value="New Brunswick">New Brunswick</option>';
+                  data+= '<option data-code="NL" value="Newfoundland">Newfoundland</option>';
+                  data+= '<option data-code="NT" value="Northwest Territories">Northwest Territories</option>';
+                  data+= '<option data-code="NS" value="Nova Scotia">Nova Scotia</option>';
+                  data+= '<option data-code="NU" value="Nunavut">Nunavut</option>';
+                  data+= '<option data-code="ON" value="Ontario">Ontario</option>';
+                  data+= '<option data-code="PE" value="Prince Edward Island">Prince Edward Island</option>';
+                  data+= '<option data-code="QC"  value="Quebec">Quebec</option>';
+                  data+= '<option data-code="SK" value="Saskatchewan">Saskatchewan</option>';
+                  data+= ' <option data-code="YT" value="Yukon">Yukon</option>';
+          } else {
+              var data = '<option data-code="AL" value="Alabama">Alabama</option>';
+                data+= '<option data-code="AK" value="Alaska">Alaska</option>';
+                data+= '<option data-code="AS" value="American Samoa">American Samoa</option>';
+                data+= '<option data-code="AZ" value="Arizona">Arizona</option>';
+                data+= '<option data-code="AR" value="Arkansas">Arkansas</option>';
+                data+= '<option data-code="CA" value="California">California</option>';
+                data+= '<option data-code="CO" value="Colorado">Colorado</option>';
+                data+= '<option data-code="CT" value="Connecticut">Connecticut</option>';
+                data+= '<option data-code="DE" value="Delaware">Delaware</option>';
+                data+= '<option data-code="DC" value="District of Columbia">District of Columbia</option>';
+                data+= '<option data-code="FM" value="Federated States of Micronesia">Federated States of Micronesia</option>';
+                data+= '<option data-code="FL" value="Florida">Florida</option>';
+                data+= '<option data-code="GA" value="Georgia">Georgia</option>';
+                data+= '<option data-code="GU" value="Guam">Guam</option>';
+                data+= '<option data-code="HI" value="Hawaii">Hawaii</option>';
+                data+= '<option data-code="ID" value="Idaho">Idaho</option>';
+                data+= '<option data-code="IL" value="Illinois">Illinois</option>';
+                data+= '<option data-code="IN" value="Indiana">Indiana</option>';
+                data+= '<option data-code="IA" value="Iowa">Iowa</option>';
+                data+= '<option data-code="KS" value="Kansas">Kansas</option>';
+                data+= '<option data-code="KY" value="Kentucky">Kentucky</option>';
+                data+= '<option data-code="LA" value="Louisiana">Louisiana</option>';
+                data+= '<option data-code="ME" value="Maine">Maine</option>';
+                data+= '<option data-code="MH" value="Marshall Islands">Marshall Islands</option>';
+                data+= '<option data-code="MD" value="Maryland">Maryland</option>';
+                data+= '<option data-code="MA" value="Massachusetts">Massachusetts</option>';
+                data+= '<option data-code="MI" value="Michigan">Michigan</option>';
+                data+= '<option data-code="MN" value="Minnesota">Minnesota</option>';
+                data+= '<option data-code="MS" value="Mississippi">Mississippi</option>';
+                data+= '<option data-code="MO" value="Missouri">Missouri</option>';
+                data+= '<option data-code="MT" value="Montana">Montana</option>';
+                data+= '<option data-code="NE" value="Nebraska">Nebraska</option>';
+                data+= '<option data-code="NV" value="Nevada">Nevada</option>';
+                data+= '<option data-code="NH" value="New Hampshire">New Hampshire</option>';
+                data+= '<option data-code="NJ" value="New Jersey">New Jersey</option>';
+                data+= '<option data-code="NM" value="New Mexico">New Mexico</option>';
+                data+= '<option data-code="NY" value="New York">New York</option>';
+                data+= '<option data-code="NC" value="North Carolina">North Carolina</option>';
+                data+= '<option data-code="ND" value="North Dakota">North Dakota</option>';
+                data+= '<option data-code="MP" value="Northern Mariana Islands">Northern Mariana Islands</option>';
+                data+= '<option data-code="OH" value="Ohio">Ohio</option>';
+                data+= '<option data-code="OK" value="Oklahoma">Oklahoma</option>';
+                data+= '<option data-code="OR" value="Oregon">Oregon</option>';
+                data+= '<option data-code="PW" value="Palau">Palau</option>';
+                data+= '<option data-code="PA" value="Pennsylvania">Pennsylvania</option>';
+                data+= '<option data-code="PR" value="Puerto Rico">Puerto Rico</option>';
+                data+= '<option data-code="RI" value="Rhode Island">Rhode Island</option>';
+                data+= '<option data-code="SC" value="South Carolina">South Carolina</option>';
+                data+= '<option data-code="SD" value="South Dakota">South Dakota</option>';
+                data+= '<option data-code="TN" value="Tennessee">Tennessee</option>';
+                data+= '<option data-code="TX" value="Texas">Texas</option>';
+                data+= '<option data-code="UT" value="Utah">Utah</option>';
+                data+= '<option data-code="VT" value="Vermont">Vermont</option>';
+                data+= '<option data-code="VI" value="Virgin Islands">Virgin Islands</option>';
+                data+= '<option data-code="VA" value="Virginia">Virginia</option>';
+                data+= '<option data-code="WA" value="Washington">Washington</option>';
+                data+= '<option data-code="WV" value="West Virginia">West Virginia</option>';
+                data+= '<option data-code="WI" value="Wisconsin">Wisconsin</option>';
+                data+= '<option data-code="WY" value="Wyoming">Wyoming</option>';
+                data+= '<option data-code="AA" value="Armed Forces Americas">Armed Forces Americas</option>';
+                data+= '<option data-code="AE" value="Armed Forces Europe">Armed Forces Europe</option>';
+                data+= '<option data-code="AP" value="Armed Forces Pacific">Armed Forces Pacific</option>';
+          }
+        $("#states").html(data);
+    });
+
     $('#register_form').validate({
       rules: {
         first_name: {
@@ -81,7 +246,13 @@ permalink: /register/
         last_name: {
           required: true
         },
-        address: {
+        street: {
+          required: true
+        },
+        city: {
+          required: true
+        },
+        zip_code: {
           required: true
         },
         email: {
@@ -93,11 +264,12 @@ permalink: /register/
         }
       },
       highlight: function (element) {
-        $(element).closest('.form-group').removeClass('success').addClass('error');
+        //$(element).closest('.form-group').removeClass('success').addClass('error');
+        $(element).parent().prev().removeClass('success').addClass('error');
       },
       success: function (element) {
         element.addClass('valid hide_lbl').removeClass('error')
-                .closest('.form-group').removeClass('error').addClass('success');
+                .parent().prev().removeClass('error').addClass('success');
       }
     });
 
