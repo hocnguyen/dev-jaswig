@@ -140,6 +140,14 @@ header input[type=checkbox]{
   display: none;
 }
 
+a.header-card.fully {
+  text-transform: none;
+  font-size: 15px!important;
+  border: 2px solid;
+  border-radius: 7px;
+  padding: 8px 11px;
+}
+
 @media (min-width: $screen-md-min) {
   header {
     padding-top: 30px;

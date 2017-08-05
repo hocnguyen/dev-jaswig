@@ -297,8 +297,8 @@ body {
 }
 
 .desktop .email_coupon {
-  background-color: #F68F1F;
-  width: 349px;
+  background-color: #1C1B1A;
+  width: 370px;
   margin: 0 auto;
 }
 
@@ -313,11 +313,11 @@ body {
 }
 
 .desktop .sign_up {
-  background-color: #F68F1F;
+  background-color: #1C1B1A;
   border: none;
   color: white;
   height: 36px;
-  width: 80px;
+  width: 100px;
   cursor: pointer;
   -webkit-appearance:none;
   border-radius: 0;
@@ -365,14 +365,14 @@ body {
 /* custom text size for mobile  */
 @media (max-width: 1024px) {
   .hero .headline {
-    margin-top: 5vw!important;
+    margin-top: 26vw!important;
   }
   .desktop .sign_up {
-    width:79px!important;
+    width:97px!important;
     height: 36px!important;
   }
   .desktop .email_coupon {
-    width: 348px!important;
+    width: 367px!important;
   }
 }
 
@@ -396,7 +396,7 @@ body {
   }
 
   .desktop .txtemail {
-    height: 32px;
+    height: 36px;
   }
 
   .desktop .sign_up {
@@ -449,7 +449,7 @@ body {
   }
 
   .mobile .sign_up {
-    background-color: #F68F1F;
+    background-color: #1C1B1A;
     border: none;
     color: white;
     height: 34px;
